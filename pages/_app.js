@@ -1,8 +1,8 @@
 import React, { useState, createContext } from 'react';
 import "styles/global.scss";
-// import "styles/header.scss";
-// import "styles/variable.scss";
-// import "styles/home.scss";
+import "styles/header.scss";
+import "styles/variable.scss";
+import "styles/home.scss";
 import MainLayout from "../views/layouts/MainLayout";
 import messagesEn from 'config/locales/en.json';
 import messagesDe from 'config/locales/de.json';
