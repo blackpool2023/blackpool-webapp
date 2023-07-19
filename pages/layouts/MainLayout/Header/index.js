@@ -1,7 +1,7 @@
 import { AppBar, Box, List, ListItem } from '@mui/material';
 import { Link } from '@mui/material';
-// import Image from 'next/image';
-// import { images } from 'pages/helpers/constants/ImageConstant';
+import Image from 'next/image';
+import { images } from 'pages/helpers/constants/ImageConstant';
 
 const Header = () => {
     const data = [
@@ -23,7 +23,7 @@ const Header = () => {
                             <Link href="#"
                             // target="_blank" rel="noopener"
                             >
-                                {/* <Image src={images.logo} alt="logo" /> */}
+                                <Image src={images.logo} alt="logo" />
                             </Link>
                         </Box>
                         <Box className="site-menu">
