@@ -1,4 +1,4 @@
-import Helmet from "pages/component/UI/Helmet"
+import Helmet from "views/component/UI/Helmet"
 import HomePage from "pages/view/pages/HomePage"
 
 const index = () => {

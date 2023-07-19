@@ -1,9 +1,9 @@
 import { Box, Typography, Grid } from '@mui/material';
 import { Link } from '@mui/material';
-// import Image from 'next/image';
-// import { images } from 'pages/helpers/constants/ImageConstant';
-import Gallery from 'pages/component/UI/Gallery';
-import CarouselSlider from 'pages/component/UI/CarouselSlider';
+import Image from 'next/image';
+import { images } from '/views/helpers/constants/ImageConstant';
+import Gallery from 'views/component/UI/Gallery';
+import CarouselSlider from 'views/component/UI/CarouselSlider';
 import React, { useState, useEffect } from 'react';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 

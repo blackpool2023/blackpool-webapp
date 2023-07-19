@@ -1,9 +1,10 @@
 import { AppBar, Box, List, ListItem } from '@mui/material';
 import { Link } from '@mui/material';
-// import Image from 'next/image';
-// import { images } from 'pages/helpers/constants/ImageConstant';
+import Image from 'next/image';
+import { images } from 'views/helpers/constants/ImageConstant';
 
 const Header = () => {
+    console.log('images', images)
     const data = [
         { id: 1, name: "Home" },
         { id: 2, name: "Pools" },

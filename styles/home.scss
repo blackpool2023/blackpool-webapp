@@ -1,4 +1,4 @@
-@import "pages/assets/scss/variable.scss";
+@import './variable.scss';
 
 // common 
 .site-heading {
@@ -24,7 +24,8 @@
 }
 // gallery 
 .bg-black {
-    background: url('../images/banner/gallery-banner.png') #000000;
+    // background: url('../images/banner/gallery-banner.png') #000000;
+    background: url('/public/assets/images/banner/gallery-banner.png') #000000;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
