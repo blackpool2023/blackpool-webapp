@@ -1,0 +1,101 @@
+@import "pages/assets/scss/variable.scss";
+
+// common 
+.site-heading {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+    // color: #1F1F1F;
+    color: $color-white;
+    text-align: center;
+    padding: 40px 0;
+}
+.site-text {
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+}
+// about 
+.about-main {
+    padding-bottom: 40px;
+}
+// gallery 
+.bg-black {
+    background: url('../images/banner/gallery-banner.png') #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0% 66px;
+    .lightbox-main {
+        .position-relative {
+            display: block;
+            position: relative;
+            &:before {
+                opacity: 1;
+                background-color: rgba(43, 49, 49, 0.9);
+                content: ' ';
+                opacity: 0;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 3px;
+                left: 0;
+                background-color: rgba(43, 49, 49, 0.9);
+                -webkit-transition: all 0.5s ease;
+                -ms-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+            }
+            &:hover {
+                &:before, .img-content {
+                    opacity: 1;
+                }
+            }
+        }
+        .img-content {
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            left: 0;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            text-align: center;
+            max-width: 273px;
+            margin: 0 auto;
+            color: #ffffff;
+            -webkit-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            .content-inner {
+                .lightbox-heading {
+                    margin-bottom: 25px;
+                    line-height: 27px;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+.scrollButton {
+    border: 1px solid $color-white;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 8px 10px;
+    background-color: $black-color;
+    color: $color-white;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.show {
+    display: block;
+    opacity: 1;
+}

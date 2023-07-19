@@ -1,0 +1,73 @@
+@import "pages/assets/scss/variable.scss";
+
+.header-main {
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    background: $black-color;
+    .container-fluid {
+        max-width: 1440px;
+        margin: 0 auto;
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 0;
+            .site-logo {
+                height: 80px;
+                width: 120px;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .site-menu {
+                .MuiList-root {
+                    display: flex;
+                    padding: 0;
+                    .MuiListItem-root {
+                        padding: 25px;
+                        &:hover {
+                            .MuiLink-root {
+                                color:$color-blue;
+                            }
+                        }
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                        .MuiLink-root {
+                            color: $color-white;
+                            text-decoration: none;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.color-black {
+    color: #1F1F1F !important;
+}
+.footer-main {
+    .social-link {
+        display: flex;
+        justify-content: end;
+        .hexagon {
+            margin: 10px;
+            border: 1px solid $color-white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease-in-out;
+            svg {
+                color: $color-white;
+            }
+            &:hover {
+                transform: scale(1.2);
+            }
+        } 
+    }
+}
