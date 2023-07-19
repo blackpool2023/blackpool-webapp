@@ -1,11 +1,11 @@
 import React, { useState, createContext } from 'react';
-import "pages/assets/scss/global.scss";
-import "pages/assets/scss/header.scss";
-import "pages/assets/scss/variable.scss";
-import "pages/assets/scss/home.scss";
-import MainLayout from "pages/layouts/MainLayout";
-import messagesEn from 'pages/helpers/locales/en.json';
-import messagesDe from 'pages/helpers/locales/de.json';
+import "styles/global.scss";
+// import "styles/header.scss";
+// import "styles/variable.scss";
+// import "styles/home.scss";
+import MainLayout from "../views/layouts/MainLayout";
+import messagesEn from 'config/locales/en.json';
+import messagesDe from 'config/locales/de.json';
 
 const Context = createContext();
 function MyApp({ Component, pageProps }) {

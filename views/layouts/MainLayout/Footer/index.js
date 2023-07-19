@@ -1,12 +1,13 @@
 import { AppBar, Box, Grid, List, ListItem } from '@mui/material';
 import { Link } from '@mui/material';
 import Image from 'next/image';
-import { images } from 'pages/helpers/constants/ImageConstant';
+import { images } from '/views/helpers/constants/ImageConstant';
 import FontAwesomeIcon from '@mui/icons-material/FacebookSharp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
 
 const NavBar = () => {
+
     const data = [
         { id: 1, name: "Home" },
         { id: 2, name: "Pools" },
@@ -27,7 +28,7 @@ const NavBar = () => {
                                 <Link href="#"
                                 // target="_blank" rel="noopener"
                                 >
-                                    <Image src={images.logo} alt="logo" />
+                                    {/* <Image src={images.logo} alt="logo" /> */}
                                 </Link>
                             </Box>
                         </Grid>
