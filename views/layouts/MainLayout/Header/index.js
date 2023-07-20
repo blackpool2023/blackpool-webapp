@@ -24,7 +24,7 @@ const Header = () => {
                             <Link href="#"
                             // target="_blank" rel="noopener"
                             >
-                                {/* <Image src={images.logo} alt="logo" /> */}
+                                <Image src={images.logo} alt="logo" height={100} width={100} />
                             </Link>
                         </Box>
                         <Box className="site-menu">
