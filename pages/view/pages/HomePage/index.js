@@ -1,7 +1,7 @@
 import { Box, Typography, Grid } from '@mui/material';
 import { Link } from '@mui/material';
 import Image from 'next/image';
-import { images } from '/views/helpers/constants/ImageConstant';
+import { images } from 'views/helpers/constants/ImageConstant';
 import Gallery from 'views/component/UI/Gallery';
 import CarouselSlider from 'views/component/UI/CarouselSlider';
 import React, { useState, useEffect } from 'react';
@@ -61,7 +61,7 @@ const HomePage = () => {
                             <Grid container spacing={3}>
                                 <Grid md={6} item>
                                     <Link href="#" className='position-relative'>
-                                        {/* <Image src={images.gallery1} alt="logo" /> */}
+                                        <Image src={images.gallery1} alt="pool image" width='100' height='100' />
                                         <Box className="img-content">
                                             <Box className="content-inner">
                                                 <Typography variant='h3' className='lightbox-heading'>Heading</Typography>
@@ -72,7 +72,7 @@ const HomePage = () => {
                                 </Grid>
                                 <Grid md={5} item>
                                     <Link href="#" className='position-relative'>
-                                        {/* <Image src={images.gallery2} alt="logo" /> */}
+                                        <Image src={images.gallery2} alt="pool image" width='100' height='100' />
                                         <Box className="img-content">
                                             <Box className="content-inner">
                                                 <Typography variant='h3' className='lightbox-heading'>Heading</Typography>
@@ -85,7 +85,7 @@ const HomePage = () => {
                                 <Grid md={1} item> </Grid>
                                 <Grid md={8} item>
                                     <Link href="#" className='position-relative'>
-                                        {/* <Image src={images.gallery1} alt="logo" /> */}
+                                        <Image src={images.gallery1} alt="pool image" width='100' height='100' />
                                         <Box className="img-content">
                                             <Box className="content-inner">
                                                 <Typography variant='h3' className='lightbox-heading'>Heading</Typography>
@@ -96,7 +96,7 @@ const HomePage = () => {
                                 </Grid>
                                 <Grid md={3} item>
                                     <Link href="#" className='position-relative'>
-                                        {/* <Image src={images.gallery2} alt="logo" /> */}
+                                        <Image src={images.gallery2} alt="pool image" width='100' height='100' />
                                         <Box className="img-content">
                                             <Box className="content-inner">
                                                 <Typography variant='h3' className='lightbox-heading'>Heading</Typography>
