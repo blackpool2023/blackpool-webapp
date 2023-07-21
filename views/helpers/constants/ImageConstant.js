@@ -1,5 +1,9 @@
 export const images = {
     logo: '/assets/images/banner/bp-with-slogan.png',
-    gallery1: '/assets/images/banner/gallery-image1.jpeg',
-    gallery2: '/assets/images/banner/gallery-image2.jpeg',
+    gallery1: '/pool/4.jpg',
+    gallery2: '/pool/6.jpg',
+    gallery3: '/pool/13.jpg',
+    gallery4: '/pool/8.jpg',
+    bannervdo1: '/assets/4images/banner/bannervdo1.mp4',
+    bannervdo2: '/assets/images/banner/bannervdo2.mp4'
 };

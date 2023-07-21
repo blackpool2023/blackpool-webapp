@@ -100,3 +100,34 @@
     display: block;
     opacity: 1;
 }
+.thumbnail .keen-slider__slide.active {
+    border: 2px dashed $color-white;
+}
+.thumbnail .keen-slider__slide {
+    font-size: 30px;
+    margin: 10px 0;
+    height: 100px;
+    width: 100px !important;
+    /* max-width: 100px !important; */
+    min-width: 100px !important;    
+    .MuiAvatar-root {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 600px;
+  max-height: 100vh;
+}
+.keen-slider.thumbnail {
+    display: flex;
+    justify-content: center;
+}
