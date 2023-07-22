@@ -1,6 +1,6 @@
 import { Box, Typography, Avatar } from '@mui/material';
 // import { Link } from '@mui/material';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { images } from 'views/helpers/constants/ImageConstant';
 // import Gallery from 'views/component/UI/Gallery';
 import { useKeenSlider } from "keen-slider/react"
@@ -83,6 +83,7 @@ const HomePage = () => {
     };
     return (
         <>
+            <CarouselSlider />
             <Box className="homepage-main">
                 <button
                     className={`scrollButton ${showButton ? 'show' : ''}`}
@@ -91,9 +92,9 @@ const HomePage = () => {
                     <KeyboardArrowUpIcon />
                 </button>
                 {/* banner */}
-                <Box style={{ backgroundColor: '#00000091' }}>
-                    <CarouselSlider />
-                </Box>
+                {/* <Box style={{ backgroundColor: '#00000091' }}> */}
+
+                {/* </Box> */}
                 <Box className="bg-black">
                     <Box className="container">
                         {/* about */}
