@@ -50,19 +50,23 @@ const CarouselSlider = () => {
         <Slider {...settings}>
             <div key={1}>
                 <Link href="#">
-                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src={'/pool/8.jpg'} alt='banner image' />
+                    <Avatar style={{ width: '100%', height: '850px', borderRadius: '0' }} src={'/pool/8.jpg'} alt='banner image' />
                 </Link>
             </div>
             <div key={2}>
                 {/* <Link href="#"> */}
-                <video ref={videoRef} autoPlay muted loop style={{ width: '100vw', height: '600px' }}>
+                <video ref={videoRef} autoPlay muted loop>
                     <source src='/assets/images/banner/bannervdo1.mp4' />
                 </video>
                 {/* </Link> */}
             </div>
             <div key={3}>
                 {/* <Link href="#"> */}
-                <video ref={videoReference} autoPlay muted loop style={{ width: '100%', height: '600px' }}>
+                <video ref={videoReference} autoPlay muted loop style={{
+                    minHeight: '600px',
+                    width: 'auto',
+                    // height: 'auto'
+                }}>
                     <source src='/assets/images/banner/bannervdo2.mp4' />
                 </video>
                 {/* </Link> */}
