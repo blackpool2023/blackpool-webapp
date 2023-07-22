@@ -11,9 +11,9 @@ const NavBar = () => {
     const data = [
         { id: 1, name: "Home" },
         { id: 2, name: "Pools" },
-        { id: 3, name: "Wellness" },
-        { id: 4, name: "Technology" },
-        { id: 5, name: "Network" },
+        // { id: 3, name: "Wellness" },
+        // { id: 4, name: "Technology" },
+        // { id: 5, name: "Network" },
         { id: 6, name: "About" },
         { id: 7, name: "Contact" },
     ]
@@ -32,7 +32,7 @@ const NavBar = () => {
                                 </Link>
                             </Box>
                         </Grid>
-                        <Grid md={7.5} item>
+                        <Grid md={3.5} item>
                             <Box className="site-menu">
                                 <List>
                                     {data.map((item) => (
@@ -43,7 +43,7 @@ const NavBar = () => {
                                 </List>
                             </Box>
                         </Grid>
-                        <Grid md={3} item>
+                        <Grid md={7} item>
                             <Box className="social-link">
                                 <Link href="#" className="hexagon">
                                     <FontAwesomeIcon icon="fa-brands fa-facebook-f" />

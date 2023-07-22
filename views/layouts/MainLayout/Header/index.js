@@ -1,23 +1,41 @@
+
+import React, { useState, useEffect } from 'react';
 import { AppBar, Box, List, ListItem } from '@mui/material';
 import { Link } from '@mui/material';
 import Image from 'next/image';
 import { images } from 'views/helpers/constants/ImageConstant';
 
 const Header = () => {
-    console.log('images', images)
+    const [showButton, setShowButton] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollY = window.scrollY;
+            if (scrollY > 200) {
+                setShowButton(true);
+            } else {
+                setShowButton(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     const data = [
         { id: 1, name: "Home" },
         { id: 2, name: "Pools" },
-        { id: 3, name: "Wellness" },
-        { id: 4, name: "Technology" },
-        { id: 5, name: "Network" },
+        // { id: 3, name: "Wellness" },
+        // { id: 4, name: "Technology" },
+        // { id: 5, name: "Network" },
         { id: 6, name: "About" },
         { id: 7, name: "Contact" },
     ]
-    console.log('images', images)
     return (
         <AppBar position="static">
-            <Box className="header-main">
+            <Box className={`header-main ${showButton ? 'sticky-header' : ''}`}>
                 <Box className="container-fluid">
                     <Box className="header-container">
                         <Box className="site-logo">
