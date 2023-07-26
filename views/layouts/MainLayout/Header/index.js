@@ -25,13 +25,13 @@ const Header = () => {
         };
     }, []);
     const data = [
-        { id: 1, name: "Home" },
-        { id: 2, name: "Pools" },
+        { id: 1, name: "Home", href: '#' },
+        { id: 2, name: "Pools", href: 'pools' },
         // { id: 3, name: "Wellness" },
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
-        { id: 6, name: "About" },
-        { id: 7, name: "Contact" },
+        { id: 6, name: "About", href: '#' },
+        { id: 7, name: "Contact", href: '#' },
     ]
     return (
         <AppBar position="static">
@@ -49,7 +49,7 @@ const Header = () => {
                             <List>
                                 {data.map((item) => (
                                     <ListItem key={item.id}>
-                                        <Link href="#"> {item.name} </Link>
+                                        <Link href={item.href}> {item.name} </Link>
                                     </ListItem>
                                 ))}
                             </List>
