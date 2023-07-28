@@ -24,5 +24,15 @@
                 transform: scale(1.1); 
             }
         }
+        .circle-image {
+            width: 450px;
+            height: 450px; 
+            border: 1px solid $color-white; 
+            padding: 40px;
+            margin: 0 auto;
+            img {
+                border-radius: 50%;
+            }
+        }
     }
 }

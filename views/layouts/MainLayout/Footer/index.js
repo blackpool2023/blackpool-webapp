@@ -11,7 +11,7 @@ const NavBar = () => {
     const data = [
         { id: 1, name: "Home", href: '#' },
         { id: 2, name: "Pools", href: 'pools' },
-        // { id: 3, name: "Wellness" },
+        { id: 3, name: "Services", href: 'services' },
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
         { id: 6, name: "About", href: '#' },
