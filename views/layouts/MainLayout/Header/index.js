@@ -25,13 +25,13 @@ const Header = () => {
         };
     }, []);
     const data = [
-        { id: 1, name: "Home", href: '#' },
+        { id: 1, name: "Home", href: '/' },
         { id: 2, name: "Pools", href: 'pools' },
         { id: 3, name: "Services", href: 'services' },
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
-        { id: 6, name: "About", href: '#' },
-        { id: 7, name: "Contact", href: '#' },
+        // { id: 6, name: "Gallery", href: 'gallery' },
+        { id: 7, name: "Contact", href: 'contact' },
     ]
     return (
         <AppBar position="static">
