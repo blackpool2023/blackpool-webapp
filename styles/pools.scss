@@ -16,23 +16,44 @@
             font-weight: 800;
         }
     }
-    .pool-facility {
+}
+.pool-facility {
+    img {
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.1); 
+        }
+    }
+    .circle-image {
+        width: 450px;
+        height: 450px; 
+        border: 1px solid $color-white; 
+        padding: 40px;
+        margin: 0 auto;
         img {
-            transition: transform 0.3s ease;
-            cursor: pointer;
-            &:hover {
-                transform: scale(1.1); 
-            }
+            border-radius: 50%;
         }
-        .circle-image {
-            width: 450px;
-            height: 450px; 
-            border: 1px solid $color-white; 
-            padding: 40px;
-            margin: 0 auto;
-            img {
-                border-radius: 50%;
-            }
-        }
+    }
+}
+.our-people-image {
+    width: 85%;
+    margin: 0 auto;
+    .MuiAvatar-root {
+        width: 350px;
+        height: 350px;
+        filter: grayscale(1);
+        margin: 0 auto;
+        cursor: pointer;
+        &:hover {
+            filter: grayscale(0);
+        }   
+    }
+    .people-name {
+        color: $color-white;
+        text-align: center;
+        padding: 35px;
+        font-size: 16px;
+        text-transform: uppercase;
     }
 }
