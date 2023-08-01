@@ -16,7 +16,7 @@ const MainLayout = ({ children }) => {
             videoRef.current.play();
             setTimeout(() => {
                 setIsPlay(false)
-            }, 8000);
+            }, 5000);
         }
     }, []);
     return (
@@ -24,7 +24,7 @@ const MainLayout = ({ children }) => {
             {isBaseRoot && isPlay ? (
                 <div style={{ background: 'black' }} >
                     <video ref={videoRef} autoPlay muted loop style={{ height: '100vh' }} >
-                        <source src='/assets/images/banner/logo-motion.mp4' />
+                        <source src='/assets/images/banner/nur-bp.mp4' />
                     </video>
                 </div>
             ) : (
