@@ -1,12 +1,24 @@
 
 import React, { useState, useEffect } from 'react';
-import { AppBar, Box, List, ListItem } from '@mui/material';
+import { AppBar, Menu, MenuItem, Box, List, ListItem } from '@mui/material';
 import { Link } from '@mui/material';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 import { images } from 'views/helpers/constants/ImageConstant';
 
 const Header = () => {
+    const router = useRouter();
+
     const [showButton, setShowButton] = useState(false);
+    const [anchorEl, setAnchorEl] = useState(null);
+    const open = Boolean(anchorEl);
+
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -31,7 +43,7 @@ const Header = () => {
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
         // { id: 6, name: "Gallery", href: 'gallery' },
-        { id: 7, name: "Contact", href: 'contact' },
+        // { id: 7, name: "About", href: 'aboutus' },
     ]
     return (
         <AppBar position="static">
@@ -52,12 +64,38 @@ const Header = () => {
                                         <Link href={item.href}> {item.name} </Link>
                                     </ListItem>
                                 ))}
+                                <ListItem
+                                    id="basic-button"
+                                    aria-controls={open ? 'basic-menu' : undefined}
+                                    aria-haspopup="true"
+                                    aria-expanded={open ? 'true' : undefined}
+                                    onClick={handleClick}
+                                >
+                                    <Link>About</Link>
+                                </ListItem>
                             </List>
                         </Box>
                     </Box>
+                    <Menu
+                        id="basic-menu"
+                        anchorEl={anchorEl}
+                        open={open}
+                        onClose={handleClose}
+                        MenuListProps={{
+                            'aria-labelledby': 'basic-button',
+                        }}
+                    >
+                        <MenuItem onClick={() => { router.push('/aboutus'); handleClose() }}>About</MenuItem>
+                        <MenuItem onClick={() => { router.push('/gallery'); handleClose() }}>Gallery</MenuItem>
+                    </Menu>
+                    <Box className='contact-btn'>
+                        <ListItem>
+                            <Link href='contact'> Contact</Link>
+                        </ListItem>
+                    </Box>
                 </Box>
             </Box>
-        </AppBar>
+        </AppBar >
     );
 };
 
