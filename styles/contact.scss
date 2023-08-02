@@ -77,3 +77,23 @@
     }
   }
 }
+.about-banner {
+  background: url('/assets/images/banner/about-banner.jpg') $black-color;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skill-items {
+  width: 70%;
+  margin-left: auto;
+  .icon-white {
+    fill:#727272;
+  }
+  .list-item {
+    span {
+      font-family: 'Mulish', sans-serif;
+      font-size: 16px;
+      font-weight: 100;
+    }
+   }
+}
