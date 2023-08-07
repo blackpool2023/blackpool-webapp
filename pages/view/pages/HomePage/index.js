@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, Avatar, Grid } from '@mui/material';
+import { Box, Typography, Avatar, Grid, Link } from '@mui/material';
 // import { Link } from '@mui/material';
 import { images } from 'views/helpers/constants/ImageConstant';
 // import Gallery from 'views/component/UI/Gallery';
@@ -8,6 +8,9 @@ import "keen-slider/keen-slider.min.css"
 import CarouselSlider from 'views/component/UI/CarouselSlider';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import MiscellaneousServicesSharpIcon from '@mui/icons-material/MiscellaneousServicesSharp';
+import FontAwesomeIcon from '@mui/icons-material/FacebookSharp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
 
 function ThumbnailPlugin(mainRef) {
     return (slider) => {
@@ -85,6 +88,20 @@ const HomePage = () => {
         <>
             <CarouselSlider />
             <Box className="homepage-main">
+                <Box className="slide-heading">
+                    <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography>
+                </Box>
+                <Box className="social-link">
+                    <Link href="#" className="hexagon">
+                        <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
+                    </Link>
+                    <Link href="#" className="hexagon">
+                        <InstagramIcon />
+                    </Link>
+                    <Link href="#" className="hexagon">
+                        <PermContactCalendarIcon />
+                    </Link>
+                </Box>
                 <button
                     className={`scrollButton ${showButton ? 'show' : ''}`}
                     onClick={handleScrollToTop}
