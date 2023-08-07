@@ -11,8 +11,9 @@
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    background: $black-color;
 }
-.header-main {
+.footer-main {
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
     background: $black-color;
     .contact-btn {
@@ -40,8 +41,9 @@
             width: 100%;
             padding: 12px 0;
             .site-logo {
-                height: 80px;
-                width: 120px;
+                height: 60px;
+                width: 70px;
+                // margin-right: 40px;
                 img {
                     height: 100%;
                     width: 100%;
@@ -52,12 +54,12 @@
                     display: flex;
                     padding: 0;
                     .MuiListItem-root {
-                        padding: 25px;
-                        &:hover {
-                            .MuiLink-root {
-                                color:$color-blue;
-                            }
-                        }
+                        padding: 25px 25px 10px;
+                        // &:hover {
+                        //     .MuiLink-root {
+                        //         color:$color-blue;
+                        //     }
+                        // }
                         // &:last-child {
                         //     padding-right: 0;
                         // }
@@ -66,6 +68,109 @@
                             text-decoration: none;
                             font-size: 16px;
                             text-transform: uppercase;
+                            &:after {
+                                background: none repeat scroll 0 0 transparent;
+                                bottom: 0;
+                                content: "";
+                                display: block;
+                                height: 2px;
+                                left: 50%;
+                                position: absolute;
+                                background: #fff;
+                                transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                                width: 0;
+                            }
+                            &:hover {
+                                &:after { 
+                                    width: 100%; 
+                                    left: 0; 
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.header-main {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+    background: transparent;
+    .contact-btn {
+        .MuiListItem-root {
+            border: 2px solid;
+            border-radius: 15px 0;
+            padding: 12px 34px;
+            a {
+                color: $color-white;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+    }
+    .container-fluid {
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            // justify-content: space-evenly;
+            width: 100%;
+            padding: 12px 0;
+            .site-logo {
+                height: 60px;
+                width: 70px;
+                margin-right: 40px;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .site-menu {
+                .MuiList-root {
+                    display: flex;
+                    padding: 0;
+                    .MuiListItem-root {
+                        // padding: 25px;
+                        // &:hover {
+                        //     .MuiLink-root {
+                        //         color:$color-blue;
+                        //     }
+                        // }
+                        // &:last-child {
+                        //     padding-right: 0;
+                        // }
+                        .MuiLink-root {
+                            color: $color-white;
+                            text-decoration: none;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            &:after {
+                                background: none repeat scroll 0 0 transparent;
+                                bottom: 0;
+                                content: "";
+                                display: block;
+                                height: 2px;
+                                left: 50%;
+                                position: absolute;
+                                background: #fff;
+                                transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                                width: 0;
+                            }
+                            &:hover {
+                                &:after { 
+                                    width: 100%; 
+                                    left: 0; 
+                                }
+                            } 
                         }
                     }
                 }
@@ -76,7 +181,7 @@
 .color-black {
     color: #1F1F1F !important;
 }
-.footer-main {
+// .footer-main {
     .social-link {
         display: flex;
         justify-content: end;
@@ -98,4 +203,4 @@
             }
         } 
     }
-}
+// }

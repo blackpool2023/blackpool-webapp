@@ -19,7 +19,7 @@ const NavBar = () => {
     ]
     return (
         // <AppBar position="static">
-        <Box className="header-main footer-main">
+        <Box className="footer-main">
             <Box className="container-fluid">
                 <Box className="header-container">
                     <Grid container>
