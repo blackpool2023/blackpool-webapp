@@ -1,5 +1,5 @@
 export const images = {
-    logo: '/assets/images/banner/bp-symbol-transparent.png',
+    logo: '/assets/images/banner/bp-with-vertical-white.png',
     gallery1: '/pool/4.jpg',
     gallery2: '/pool/6.jpg',
     gallery3: '/pool/13.jpg',
