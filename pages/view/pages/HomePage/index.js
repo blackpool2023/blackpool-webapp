@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, Avatar, Grid } from '@mui/material';
+import { Box, Typography, Avatar, Grid, Link } from '@mui/material';
 // import { Link } from '@mui/material';
 import { images } from 'views/helpers/constants/ImageConstant';
 // import Gallery from 'views/component/UI/Gallery';
@@ -8,6 +8,9 @@ import "keen-slider/keen-slider.min.css"
 import CarouselSlider from 'views/component/UI/CarouselSlider';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import MiscellaneousServicesSharpIcon from '@mui/icons-material/MiscellaneousServicesSharp';
+import FontAwesomeIcon from '@mui/icons-material/FacebookSharp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
 
 function ThumbnailPlugin(mainRef) {
     return (slider) => {
@@ -85,6 +88,20 @@ const HomePage = () => {
         <>
             <CarouselSlider />
             <Box className="homepage-main">
+                {/* <Box className="slide-heading">
+                    <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography>
+                </Box> */}
+                <Box className="social-link">
+                    <Link href="#" className="hexagon">
+                        <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
+                    </Link>
+                    <Link href="#" className="hexagon">
+                        <InstagramIcon />
+                    </Link>
+                    <Link href="#" className="hexagon">
+                        <PermContactCalendarIcon />
+                    </Link>
+                </Box>
                 <button
                     className={`scrollButton ${showButton ? 'show' : ''}`}
                     onClick={handleScrollToTop}
@@ -98,17 +115,30 @@ const HomePage = () => {
                 <Box className="bg-black">
                     <Box className="container">
                         {/* about */}
-                        <Box className="about-main">
-                            <Typography variant='h2' className='site-heading'>About Us</Typography>
-                            <Grid container spacing={3}>
+                        {/* <Box className="about-main"> */}
+
+                        {/* <Grid container spacing={3}>
                                 <Grid md={6} item>
                                     <Avatar style={{ width: '100%', height: 'auto', borderRadius: '0' }} src={images.gallery1} alt='gallery image' />
                                 </Grid>
                                 <Grid md={6} item style={{ display: 'flex', alignItems: 'center' }}>
                                     <Typography variant='p' className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Typography>
                                 </Grid>
+                            </Grid> */}
+                        <Box className="about-main pool-facility">
+                            <Typography variant='h2' className='site-heading'>About Us</Typography>
+                            <Grid container spacing={3} style={{ paddingTop: '50px' }}>
+                                <Grid md={1} item></Grid>
+                                <Grid md={5} item>
+                                    <Avatar className='circle-image' src={images.gallery2} alt='gallery image' />
+                                </Grid>
+                                <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
+                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</Typography>
+                                </Grid>
+                                <Grid md={1} item></Grid>
                             </Grid>
                         </Box>
+                        {/* </Box> */}
                         {/* image */}
                         {/* <Gallery /> */}
                     </Box>
@@ -135,6 +165,7 @@ const HomePage = () => {
                                 <Box className="service-item">
                                     <MiscellaneousServicesSharpIcon />
                                     <Typography variant='h3'>Heading</Typography>
+
                                     <Typography variant='p' className='site-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</Typography>
                                 </Box>
                             </Grid>

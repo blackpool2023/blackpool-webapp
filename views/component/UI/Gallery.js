@@ -75,3 +75,73 @@
 //     );
 // }
 // export default GalleryGrid;
+import Head from 'next/head';
+import lgZoom from 'lightgallery/plugins/zoom';
+import dynamic from 'next/dynamic';
+import { Box } from '@mui/material';
+
+// import styles from '../styles/Home.module.css';
+
+const LightGallery = dynamic(() => import('lightgallery/react'), {
+    ssr: false
+});
+
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+
+export default function Gallery() {
+    return (
+        <div>
+            <Head>
+                <title>Create Next App</title>
+            </Head>
+
+            <LightGallery mode="lg-fade" plugins={[lgZoom]}>
+                {/* <Grid container spacing={2}> */}
+                {/* <Grid md={3} item> */}
+                {/* <Box className="d-flex"> */}
+                <a
+                    data-lg-size="1406-1390"
+                    className="gallery-item"
+                    data-src="/pool/2.jpg"
+                    data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
+                >
+                    <img
+                        className="img-responsive"
+                        src="/pool/2.jpg"
+                    />
+                </a>
+                {/* </Grid> */}
+                {/* <Grid md={3} item> */}
+                <a
+                    data-lg-size="1406-1390"
+                    className="gallery-item"
+                    data-src="/pool/14.jpg"
+                    data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
+                >
+                    <img
+                        className="img-responsive"
+                        src="/pool/14.jpg"
+                    />
+                </a>
+                {/* </Grid> */}
+                {/* <Grid md={3} item> */}
+                <a
+                    data-lg-size="1406-1390"
+                    className="gallery-item"
+                    data-src="/pool/9.jpg"
+                    data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
+                >
+                    <img
+                        className="img-responsive"
+                        src="/pool/9.jpg"
+                    />
+                </a>
+                {/* </Box> */}
+
+                {/* </Grid> */}
+                {/* </Grid> */}
+            </LightGallery>
+        </div>
+    );
+}

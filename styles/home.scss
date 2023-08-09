@@ -144,6 +144,18 @@ video {
 }
 .slick-slider {
     background: $black-color;
+    .slick-dots li.slick-active button:before {
+        opacity: 0.75;
+        color: $color-white;
+    }
+    .slick-dots li button:before {
+        color: $color-white;
+        font-size: 15px;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 50px;
+    }
 }
 .services-main {
     color: $color-white;
@@ -171,6 +183,39 @@ video {
         }
         &:hover {
             border: 2px solid $color-blue;
+        }
+    }
+}
+.homepage-main {
+    .social-link {
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        display: block;
+    }
+    
+}
+.slide-heading {
+    position: absolute;
+    color: $color-white;
+    top: 40%;
+    // display: flex;
+    // align-items: center;
+    width: 100%;
+    z-index: 11;
+    
+    h1 {
+        font-size: 65px;
+        max-width: 1140px;
+        margin: 0 auto;
+        line-height: 90px;
+        position: absolute;
+        padding-left: 150px;
+        .fw-800 {
+            font-weight: 800;
+        }
+        span {
+            display: block;
         }
     }
 }
