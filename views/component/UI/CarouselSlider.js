@@ -62,14 +62,11 @@ const CarouselSlider = () => {
             </div>
             <div key={2}>
                 {/* <Link href="#"> */}
-                <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>WATER</span> <span>WATER IS LIFE</span></Typography>
-                </Box>
                 <video ref={videoRef} autoPlay muted loop style={{
                     minHeight: '600px',
                     width: '100vw',
                 }} >
-                    <source src='/assets/images/banner/bannervdo2.mp4' />
+                    <source src='/assets/images/banner/bannervdo3.mp4' />
                 </video>
                 {/* </Link> */}
             </div>

@@ -193,29 +193,25 @@ video {
         right: 25px;
         display: block;
     }
-    
-}
-.slide-heading {
-    position: absolute;
-    color: $color-white;
-    top: 40%;
-    // display: flex;
-    // align-items: center;
-    width: 100%;
-    z-index: 11;
-    
-    h1 {
-        font-size: 65px;
-        max-width: 1140px;
-        margin: 0 auto;
-        line-height: 90px;
+    .slide-heading {
         position: absolute;
-        padding-left: 150px;
-        .fw-800 {
-            font-weight: 800;
-        }
-        span {
-            display: block;
+        color: $color-white;
+        top: 40%;
+        // display: flex;
+        // align-items: center;
+        width: 100%;
+        // justify-content: center;
+        h1 {
+            font-size: 65px;
+            max-width: 1140px;
+            margin: 0 auto;
+            line-height: 90px;
+            .fw-800 {
+                font-weight: 800;
+            }
+            span {
+                display: block;
+            }
         }
     }
 }
