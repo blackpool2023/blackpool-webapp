@@ -88,9 +88,9 @@ const HomePage = () => {
         <>
             <CarouselSlider />
             <Box className="homepage-main">
-                <Box className="slide-heading">
+                {/* <Box className="slide-heading">
                     <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography>
-                </Box>
+                </Box> */}
                 <Box className="social-link">
                     <Link href="#" className="hexagon">
                         <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
@@ -165,6 +165,7 @@ const HomePage = () => {
                                 <Box className="service-item">
                                     <MiscellaneousServicesSharpIcon />
                                     <Typography variant='h3'>Heading</Typography>
+
                                     <Typography variant='p' className='site-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</Typography>
                                 </Box>
                             </Grid>

@@ -4,14 +4,15 @@ import Slider from 'react-slick';
 // import ReactPlayer from 'react-player'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Link, Avatar } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 const CarouselSlider = () => {
     const videoRef = useRef(null);
+    const videosRef = useRef(null);
     const videoReference = useRef(null);
     useEffect(() => {
         // Once the component mounts, start playing the video
-        videoRef.current.play(); videoReference.current.play();
+        videoRef.current.play(); videoReference.current.play(); videosRef.current.play();
     }, []);
 
     const settings = {
@@ -21,7 +22,7 @@ const CarouselSlider = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 30000,
     };
 
     // const images = [
@@ -48,29 +49,41 @@ const CarouselSlider = () => {
 
     return (
         <Slider {...settings}>
-            <div key={1}>
-                <Link href="#">
-                    <Avatar style={{ width: '100%', height: '850px', borderRadius: '0' }} src={'/pool/8.jpg'} alt='banner image' />
-                </Link>
+            <div key={1} >
+                <Box className="slide-heading">
+                    <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography>
+                </Box>
+                <video ref={videosRef} autoPlay muted loop style={{
+                    minHeight: '600px',
+                    width: '100vw',
+                }} >
+                    <source src='/assets/images/banner/slidervdo2.mp4' />
+                </video>
             </div>
             <div key={2}>
                 {/* <Link href="#"> */}
+                <Box className="slide-heading">
+                    <Typography variant='h1'><span className='fw-800'>WATER</span> <span>WATER IS LIFE</span></Typography>
+                </Box>
                 <video ref={videoRef} autoPlay muted loop style={{
                     minHeight: '600px',
                     width: '100vw',
                 }} >
-                    <source src='/assets/images/banner/bannervdo3.mp4' />
+                    <source src='/assets/images/banner/slidervdo1.mp4' />
                 </video>
                 {/* </Link> */}
             </div>
             <div key={3}>
                 {/* <Link href="#"> */}
+                <Box className="slide-heading">
+                    <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography>
+                </Box>
                 <video ref={videoReference} autoPlay muted loop style={{
                     minHeight: '600px',
-                    width: 'auto',
+                    width: '100vw',
                     // height: 'auto'
                 }}>
-                    <source src='/assets/images/banner/bannervdo2.mp4' />
+                    <source src='/assets/images/banner/slidervdo3.mp4' />
                 </video>
                 {/* </Link> */}
             </div>
