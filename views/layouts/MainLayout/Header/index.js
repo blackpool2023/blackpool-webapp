@@ -43,7 +43,7 @@ const Header = () => {
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
         // { id: 6, name: "Gallery", href: 'gallery' },
-        // { id: 7, name: "About", href: 'aboutus' },
+        { id: 7, name: "Contact", href: 'contact' },
     ]
     return (
         <AppBar position="static">
@@ -51,7 +51,7 @@ const Header = () => {
                 <Box className="container-fluid">
                     <Box className="header-container">
                         <Box className="site-logo">
-                            <Link href="#"
+                            <Link href="/"
                             // target="_blank" rel="noopener"
                             >
                                 <Image src={images.logo} alt="logo" height={100} width={100} />
@@ -88,11 +88,11 @@ const Header = () => {
                         <MenuItem onClick={() => { router.push('/aboutus'); handleClose() }}>About</MenuItem>
                         <MenuItem onClick={() => { router.push('/gallery'); handleClose() }}>Gallery</MenuItem>
                     </Menu>
-                    <Box className='contact-btn'>
+                    {/* <Box className='contact-btn'>
                         <ListItem>
                             <Link href='contact'> Contact</Link>
                         </ListItem>
-                    </Box>
+                    </Box> */}
                 </Box>
             </Box>
         </AppBar >
