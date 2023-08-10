@@ -51,7 +51,8 @@ const CarouselSlider = () => {
         <Slider {...settings}>
             <div key={1} >
                 <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography>
+                    <Typography variant='h1'><span className='fw-800'>LISTEN TO YOUR BODY</span></Typography>
+                    {/* <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography> */}
                 </Box>
                 <video ref={videosRef} autoPlay muted loop style={{
                     minHeight: '600px',
@@ -63,7 +64,8 @@ const CarouselSlider = () => {
             <div key={2}>
                 {/* <Link href="#"> */}
                 <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>WATER</span> <span>WATER IS LIFE</span></Typography>
+                    <Typography variant='h1'><span className='fw-800'>WATER IS LIFE</span></Typography>
+                    {/* <Typography variant='h1'><span className='fw-800'>WATER</span> <span>WATER IS LIFE</span></Typography> */}
                 </Box>
                 <video ref={videoRef} autoPlay muted loop style={{
                     minHeight: '600px',
@@ -76,7 +78,8 @@ const CarouselSlider = () => {
             <div key={3}>
                 {/* <Link href="#"> */}
                 <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography>
+                    <Typography variant='h1'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
+                    {/* <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography> */}
                 </Box>
                 <video ref={videoReference} autoPlay muted loop style={{
                     minHeight: '600px',
