@@ -14,7 +14,7 @@ const NavBar = () => {
         { id: 3, name: "Services", href: 'services' },
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
-        // { id: 6, name: "Gallery", href: 'gallery' },
+        { id: 6, name: "About", href: 'aboutus' },
         { id: 7, name: "Contact", href: 'contact' },
     ]
     return (
@@ -25,7 +25,7 @@ const NavBar = () => {
                     <Grid container>
                         <Grid md={1.5} item>
                             <Box className="site-logo">
-                                <Link href="#"
+                                <Link href="/"
                                 // target="_blank" rel="noopener"
                                 >
                                     <Image src={images.logo} alt="logo" height={100} width={100} />
