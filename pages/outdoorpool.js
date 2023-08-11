@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { images } from 'views/helpers/constants/ImageConstant';
 import Helmet from "views/component/UI/Helmet"
 
-const Pools = () => {
+const OutdoorPools = () => {
 
     const settings = {
         dots: true,
@@ -53,61 +53,65 @@ const Pools = () => {
                         <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</Typography>
                     </Box> */}
                     <Box className="about-main pool-facility">
-                        <Typography variant='h1' className='site-heading'>Indoor-Pool für deinen Wintergarten</Typography>
+                        <Typography variant='h1' className='site-heading'>Outdoor-Pool – ein Freibad im Garten</Typography>
                         <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text'>
-                            Du kennst es aus dem Hotel – ein Indoor-Pool bedeutet <b>Wellness, Entspannung und Zufriedenheit</b> und das auch <b>unabhängig vom Wetter</b>. Hole dir zusammen mit <b>BlackPool</b> das einmalige Urlaubsfeeling nach Hause, um beispielsweise vor der Arbeit entspannt deine Bahnen zu schwimmen und Kraft für den Alltag zu gewinnen. Im Gegensatz zum Hotelpool nutzt du deine „Home SPA“ zu jeder Tageszeit und ohne die neugierigen Blicke anderer Badegäste.
+                            Es ist 30 Grad, die Sonne strahlt und du denkst „Eine Abkühlung wäre jetzt genau das Richtige!“. Du öffnest deine Terrassentür und vor dir siehst du einen <b>schicken Outdoor-Pool,</b> der sich optimal als Blickfang in deinen Garten einfügt. Mit einem Finger-Touch auf deinem Smartphone fährt die Abdeckung beiseite. Sonnenstrahlen treffen auf das kristallklare Wasser und du springst mit einem Grinsen ins kühle Nass.
                         </Typography>
-                        <Typography variant='h2' className='site-sub-heading pt-20'>Indoor-Pool – ein Hallenbad im Haus</Typography>
+                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text'>
+                            <b>
+                                Kein Bademeister ruft „Nicht vom Beckenrand springen!“, denn mit BlackPool ist die oben beschriebene Situation keine Fata Morgana oder eine Tagträumerei. Statt ins überlaufende Freibad zu fahren, erhältst du mit uns eine bessere Option: deinen eigenen Outdoor-Pool, direkt in deinen Garten in Niedersachsen.
+                            </b>
+                        </Typography>
+                        <Typography variant='h2' className='site-sub-heading pt-20'>
+                            Ein Stück mehr Freiheit: Dein zukünftiger Outdoor-Pool
+                        </Typography>
                         <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
-                            Ein eigenes Schwimmbad bzw. einen Indoor-Pool im eigenen Haus ist ein <b>absolutes Highlight,</b> das nicht jeder sein Eigen nennen kann. Beliebt ist es, den Pool im Wintergarten zu platzieren, was <b>sehr praktisch</b> ist. Wind, Regen und Kälte bleiben draußen, während Sonnenstrahlen dir selbst im Winter schöne Momente bescheren.
-                        </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
-                            Nebenbei steigerst du den Wert deines Hauses und erfreust dich über den schönen Anblick des Pools. Wochenend- oder Ferienhäuser wertest du mit einem Pool ebenfalls auf. Wir prüfen, inwieweit ein Einbau möglich ist und bauen dir deinen <b>Traum-Indoor-Pool!</b> Dabei sind verschiedene Formen, Größen und Extras wie ein gemauerter Lounge-Bereich möglich.
-                        </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto', textAlign: 'left' }} variant='p' className='site-text pt-20'>
-                            BlackPool baut für dich und deine Familie einen individuellen Indoor-Pool. Dabei begegnest du diese
-                        </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto', textAlign: 'left' }} variant='p' className='site-text pt-20'>
-                            <b>VORTEILE:</b>
+                            Wir planen deinen Pool und koordinieren auch den Bau des Pools durch fachkundige Handwerker. Wir installieren ebenso die Technik, sodass du <b>einen vollständigen und pflegeleichten</b> Outdoor-Pool erhältst. Freue dich auf einen eigenen Outdoor-Pool mit vielen Vorteilen:
                         </Typography>
                         <List
                             className='skill-items'
                             sx={{ width: '100%' }}
                             aria-label="contacts"
-                            style={{ width: '80%' }}
+                            style={{ width: '70%', margin: '0 auto' }}
                         >
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >
                                     <StarIcon className='icon-white' />
                                 </ListItemIcon>
-                                <ListItemText className='list-item'><b>Familiär:</b> Starte mit einer umfassenden und ehrlichen Beratung, die alle deine Fragen beantwortet. Und finde heraus, wie viel Pool in deinen Wintergarten passt. </ListItemText>
+                                <ListItemText className='list-item'><b>Freibad direkt im Garten:</b> spare Zeit, Fahrtkosten und vermeide Stress, indem du statt zum nächsten Badesee einfach in den Garten gehst.</ListItemText>
                             </ListItem>
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >
                                     <StarIcon className='icon-white' />
                                 </ListItemIcon>
-                                <ListItemText className='list-item'><b>Fachkundig:</b> Nach der Beratung folgt die Planung, Umsetzung und Wartung in Zusammenarbeit mit qualifizierten Fachbetrieben sowie Architekten. </ListItemText>
+                                <ListItemText className='list-item'><b>Mehr Ruhe:</b> Du brauchst dir keine Sorgen machen, dass deine Wertsachen im Freibad gestohlen werden. Auch gibt es weniger neugierige Blicke, die dich anstarren. Erholung pur!</ListItemText>
                             </ListItem>
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >
                                     <StarIcon className='icon-white' />
                                 </ListItemIcon>
-                                <ListItemText className='list-item'><b>Traumhaft:</b> Erhalte einen Indoor-Pool – ein massives Betonbecken mit folierter Oberfläche, mit dem du dir ein eigenes und haltbares Urlaubsparadies schaffst. </ListItemText>
+                                <ListItemText className='list-item'><b>Fitnessstudio vor der Haustür:</b> Je nach Poolgröße ist dein Outdoor-Pool dein neues Fitnessstudio, denn Schwimmen fördert deine Gesundheit.</ListItemText>
                             </ListItem>
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >
                                     <StarIcon className='icon-white' />
                                 </ListItemIcon>
-                                <ListItemText className='list-item'><b>Individuell:</b> Verschiedene Maße, Formen und mehrere Folienfarben sind möglich. </ListItemText>
+                                <ListItemText className='list-item'><b>Ein sozialer Treffpunkt:</b> Lade deine Freunde ein oder genieße die Zeit mit deiner Familie am Pool. </ListItemText>
                             </ListItem>
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >
                                     <StarIcon className='icon-white' />
                                 </ListItemIcon>
-                                <ListItemText className='list-item'><b>Modern:</b> Dank kluger Technik, profitierst du von energiesparenden Lösungen, die bequem per Smartphone steuerbar sind. </ListItemText>
+                                <ListItemText className='list-item'><b>Blickfang im Garten:</b> Mit BlackPool fügt sich der Pool optimal in die Umgebung ein. Passe die Form oder die Farbe der Poolwände nach deinem Geschmack an und erhalte ein Unikat für dein Zuhause. </ListItemText>
+                            </ListItem>
+                            <ListItem disablePadding className='w-80' >
+                                <ListItemIcon style={{ minWidth: '35px' }} >
+                                    <StarIcon className='icon-white' />
+                                </ListItemIcon>
+                                <ListItemText className='list-item'><b>Wertsteigerung:</b> Ein Haus mit Pool ist mehr wert als ein Haus ohne Pool. </ListItemText>
                             </ListItem>
                         </List>
-                        <Typography variant='h3' className='site-sub-heading pt-20'>Ein paar Bilder zur Inspiration</Typography>
+                        <Typography variant='h3' className='site-sub-heading pt-20'>Lass dich Inspirieren</Typography>
                         <Grid container spacing={3} style={{ paddingTop: '50px' }}>
                             <Grid md={1} item></Grid>
                             <Grid md={5} item>
@@ -123,9 +127,9 @@ const Pools = () => {
                             </Grid> */}
                             <Grid md={1} item></Grid>
                         </Grid>
-                        <Typography variant='h2' className='site-sub-heading pt-40'>Gefällt dir, was du siehst? Jetzt informieren und ein Angebot erhalten! </Typography>
+                        <Typography variant='h2' className='site-sub-heading pt-40'>Dir gefallen die Bilder? Perfekt! Lass dich beraten.</Typography>
                         <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
-                            Träumst du schon davon, wie schön ein eigener Pool ist? Der erfolgreiche Poolbau beginnt mit einer <b>Beratung</b>. Erzähle uns von deinem Wunsch-Indoor-Pool.
+                            Vereinbare einen Beratungstermin und springe schon bald in deinen eigenen Outdoor-Pool!
                         </Typography>
                         {/* <Grid container spacing={3} style={{ flexDirection: 'row-reverse' }} >
                             <Grid md={1} item></Grid>
@@ -172,4 +176,4 @@ const Pools = () => {
     );
 };
 
-export default Pools;
+export default OutdoorPools;
