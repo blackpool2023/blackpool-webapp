@@ -231,6 +231,9 @@ video {
 .pt-20 {
     padding-top: 20px;
 }
+.pt-10 {
+    padding-top: 10px;
+}
 .site-sub-heading {
     color: $color-white;
     text-align: center;
@@ -238,4 +241,13 @@ video {
 }
 .w-80 {
     width: 80%;
+}
+.site-benefit {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    .plr-10 {
+        padding: 0 10px;
+    }
 }
