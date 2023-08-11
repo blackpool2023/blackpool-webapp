@@ -12,7 +12,7 @@ const AboutUs = () => {
             <Helmet title='About Us - Blackpool' description='Wir planen & bauen In- und Outdoor-Pools ✓ Inklusive Technik ✓ Wartungsprogramm → Mehr über BlackPool e.K. erfahren! ' />
             <Box className='contact-main'>
                 <Box className="contact-banner">
-                    <Typography variant='h2'>About Us</Typography>
+                    <Typography variant='h2'>Über uns</Typography>
                 </Box>
             </Box>
             <Box className="bg-black">
