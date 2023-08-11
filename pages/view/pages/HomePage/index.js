@@ -172,7 +172,7 @@ const HomePage = () => {
                                             Vielleicht hast du dir zur Inspiration ein paar Poolbilder angeschaut und denkst nun: Ich will auf jeden Fall einen Pool! Doch gleichzeitig fragst du dich, wie teuer das Ganze wird und wer überhaupt einen Pool in Niedersachsen baut. Du fängst an Informationen zu suchen und bist dabei heute auf BlackPool gestoßen. Toll!
                                         </Typography>
                                         <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
-                                            Wir, die Poolbauer aus Hannover, planen und bauen moderne Pools in Niedersachsen. Vereinbare ein unverbindliches Beratungsgespräch, damit du Klarheit über offene Fragen erhältst und damit du schon bald am eigenen Pool liegst:<Link href='/' className='color-white' style={{ textDecoration: 'underline' }} >Ja, ich will Urlaub für zu Hause!</Link>
+                                            Wir, die Poolbauer aus Hannover, planen und bauen moderne Pools in Niedersachsen. Vereinbare ein unverbindliches Beratungsgespräch, damit du Klarheit über offene Fragen erhältst und damit du schon bald am eigenen Pool liegst: <Link href='/' className='color-white' style={{ textDecoration: 'underline' }} >Ja, ich will Urlaub für zu Hause!</Link>
                                         </Typography>
                                     </Grid>
                                     <Grid md={2} item></Grid>
@@ -230,7 +230,7 @@ const HomePage = () => {
                 {/* gallery */}
                 <Box className="bg-black">
                     <Box className="container">
-                        <Typography variant='h2' className='site-heading'>Gallery</Typography>
+                        <Typography variant='h2' className='site-heading'>Pools, die Emotionen auslösen: Ein Einblick, wie es bei dir aussehen könnte</Typography>
                         <Box className="lightbox-main">
                             <div ref={sliderRef} className="keen-slider">
                                 <div className="keen-slider__slide number-slide1">
@@ -309,6 +309,21 @@ const HomePage = () => {
                                     </Link>
                                 </Grid>
                             </Grid> */}
+                        </Box>
+                        <Box className="pt-40 pb-50">
+                            <Typography variant='p' className='site-text' style={{ textAlign: 'left' }} >
+                                Noch mehr Inspirationen in unserer Galerie. Schaue nach, was die Poolbauer aus Hannover für dich bauen:   <Link href='/gallery' className='color-white' style={{ textDecoration: 'underline' }} >zur Galerie.</Link>
+                            </Typography>
+                            <Typography variant='p' style={{ textAlign: 'left', textTransform: 'uppercase' }} className='site-text'>
+                                Du willst dich und deine Familie glücklich machen?
+                            </Typography>
+                            <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                Kaufe einen <b>hochwertigen Pool</b> direkt vom Poolbauer aus Hannover. Das Fundament von unseren <b>Betonpool hält Jahrzehnte</b>, sodass vielleicht noch deine Enkelkinder in deinem Pool schwimmen lernen.
+                            </Typography>
+                            <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                Bespreche unverbindlich die nächsten Schritte, um schon bald im eigenen Pool die warmen Sonnenstrahlen auf deiner Haut zu genießen. <b>Jetzt starten</b> und endlich zusammen mit einem Poolbauer aus Hannover mit der Umsetzung beginnen: Jetzt einen
+                                <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} > Beratungstermin vereinbaren.</Link>
+                            </Typography>
                         </Box>
                     </Box>
                 </Box>
