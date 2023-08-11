@@ -7,7 +7,7 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import CarouselSlider from 'views/component/UI/CarouselSlider';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import MiscellaneousServicesSharpIcon from '@mui/icons-material/MiscellaneousServicesSharp';
+// import MiscellaneousServicesSharpIcon from '@mui/icons-material/MiscellaneousServicesSharp';
 import FontAwesomeIcon from '@mui/icons-material/FacebookSharp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
@@ -126,52 +126,46 @@ const HomePage = () => {
                                 </Grid>
                             </Grid> */}
                         <Box className="about-main pool-facility">
-                            <Typography variant='h2' className='site-heading'>About Us</Typography>
-                            <Grid container spacing={3} style={{ paddingTop: '50px' }}>
-                                <Grid md={1.5} item></Grid>
-                                <Grid md={5} item>
-                                    <Avatar className='circle-image' src={images.gallery2} alt='gallery image' />
-                                </Grid>
-                                <Grid md={3.5} item style={{ display: 'flex', alignItems: 'center' }}>
-                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                            <Typography variant='h2' className='site-heading'>Über uns</Typography>
+                            <Grid container spacing={3} >
+                                <Grid md={2} item></Grid>
+                                <Grid md={8} item>
+                                    <Typography variant='p' className='site-text'>
                                         „Hey, ich bin Elvis, Poolbauer aus Hannover und Inhaber von BlackPool. Wir alle sollten mehr lachen und schöne Erlebnisse schaffen! Deshalb baue ich für deine Familie aus Niedersachsen, einen maßgefertigten, lange haltbaren Pool aus Beton.
+                                    </Typography>
+                                    <Typography variant='p' className='site-text pt-10'>
+                                        Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um mit der Familie Zeit zu verbringen. Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
+                                    </Typography>
+                                    <Typography variant='p' className='site-text pt-10'>
+                                        Damit du mehr Zeit hast, die Sonne zu genießen, fügen wir deinem neuen Pool moderne Technik hinzu, die Aufgaben wie die Poolpflege automatisieren. Erhalte einen Pool mit allem Drum und Dran in dem du entspannen kannst und der für deine Familie für ordentlich Badespaß sorgt.“
+                                    </Typography>
+                                    <Typography variant='p' className='site-text pt-10'>
+                                        Mehr über BlackPool: <Link href='/pools' className='color-white' style={{ textDecoration: 'underline' }}>deine zukünftigen Poolprofis.</Link>
                                     </Typography>
                                 </Grid>
                                 <Grid md={2} item></Grid>
+                                <Grid md={3.5} item></Grid>
+                                <Grid md={5} item>
+                                    <Avatar className='circle-image' src={images.gallery2} alt='gallery image' />
+                                </Grid>
+                                <Grid md={3.5} item></Grid>
                                 <Grid container spacing={3} style={{ paddingTop: '30px' }}>
                                     <Grid md={2} item></Grid>
                                     <Grid md={8} item>
-                                        <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
-                                            Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um mit der Familie Zeit zu verbringen. Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
-                                        </Typography>
-                                        <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
-                                            Damit du mehr Zeit hast, die Sonne zu genießen, fügen wir deinem neuen Pool moderne Technik hinzu, die Aufgaben wie die Poolpflege automatisieren. Erhalte einen Pool mit allem Drum und Dran in dem du entspannen kannst und der für deine Familie für ordentlich Badespaß sorgt.“
-                                        </Typography>
-                                    </Grid>
-                                    <Grid md={2} item></Grid>
-                                    <Grid md={2} item></Grid>
-                                    <Grid md={8} item>
-                                        <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
-                                            Mehr über BlackPool: <Link href='/pools' className='color-white' style={{ textDecoration: 'underline' }} >deine zukünftigen Poolprofis.</Link>
-                                        </Typography>
-                                    </Grid>
-                                    <Grid md={2} item></Grid>
-                                    <Grid md={2} item></Grid>
-                                    <Grid md={8} item>
-                                        <Typography variant='h2' style={{ textAlign: 'left', textTransform: 'uppercase' }} className='site-text'>
+                                        <Typography variant='h2' style={{ textTransform: 'uppercase' }} className='site-text'>
                                             Endlich ein eigener Pool für die ganze Familie
                                         </Typography>
                                     </Grid>
                                     <Grid md={2} item></Grid>
                                     <Grid md={2} item></Grid>
                                     <Grid md={8} item>
-                                        <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                        <Typography variant='p' className='site-text'>
                                             Die Idee ist da. Seit einiger Zeit denkst du über dein Vorhaben nach und in deinem Kopf malst du dir bereits aus, wie du und deine Liebsten eine schöne Zeit am eigenen Pool verbringen. Du schwimmst entspannt deine Bahnen, während warme Sonnenstrahlen auf deine Haut treffen. Deine Kinder planschen, springen vom Beckenrand in deine Arme und spielen Wasserball. Es wird viel gelacht. Es ist wie Urlaub, nur ohne das nervige Gedrängel an den Touristenorten und die lange Anfahrt spart ihr euch ebenfalls.
                                         </Typography>
-                                        <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                        <Typography variant='p' className='site-text'>
                                             Vielleicht hast du dir zur Inspiration ein paar Poolbilder angeschaut und denkst nun: Ich will auf jeden Fall einen Pool! Doch gleichzeitig fragst du dich, wie teuer das Ganze wird und wer überhaupt einen Pool in Niedersachsen baut. Du fängst an Informationen zu suchen und bist dabei heute auf BlackPool gestoßen. Toll!
                                         </Typography>
-                                        <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                        <Typography variant='p' className='site-text'>
                                             Wir, die Poolbauer aus Hannover, planen und bauen moderne Pools in Niedersachsen. Vereinbare ein unverbindliches Beratungsgespräch, damit du Klarheit über offene Fragen erhältst und damit du schon bald am eigenen Pool liegst: <Link href='/' className='color-white' style={{ textDecoration: 'underline' }} >Ja, ich will Urlaub für zu Hause!</Link>
                                         </Typography>
                                     </Grid>
@@ -311,23 +305,29 @@ const HomePage = () => {
                             </Grid> */}
                         </Box>
                         <Box className="pt-40 pb-50">
-                            <Typography variant='p' className='site-text' style={{ textAlign: 'left' }} >
-                                Noch mehr Inspirationen in unserer Galerie. Schaue nach, was die Poolbauer aus Hannover für dich bauen:   <Link href='/gallery' className='color-white' style={{ textDecoration: 'underline' }} >zur Galerie.</Link>
-                            </Typography>
-                            <Typography variant='p' style={{ textAlign: 'left', textTransform: 'uppercase' }} className='site-text'>
-                                Du willst dich und deine Familie glücklich machen?
-                            </Typography>
-                            <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
-                                Kaufe einen <b>hochwertigen Pool</b> direkt vom Poolbauer aus Hannover. Das Fundament von unseren <b>Betonpool hält Jahrzehnte</b>, sodass vielleicht noch deine Enkelkinder in deinem Pool schwimmen lernen.
-                            </Typography>
-                            <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
-                                Bespreche unverbindlich die nächsten Schritte, um schon bald im eigenen Pool die warmen Sonnenstrahlen auf deiner Haut zu genießen. <b>Jetzt starten</b> und endlich zusammen mit einem Poolbauer aus Hannover mit der Umsetzung beginnen: Jetzt einen
-                                <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} > Beratungstermin vereinbaren.</Link>
-                            </Typography>
+                            <Grid container spacing={3}>
+                                <Grid md={2} item></Grid>
+                                <Grid md={8} item>
+                                    <Typography variant='p' className='site-text'>
+                                        Noch mehr Inspirationen in unserer Galerie. Schaue nach, was die Poolbauer aus Hannover für dich bauen:   <Link href='/gallery' className='color-white' style={{ textDecoration: 'underline' }} >zur Galerie.</Link>
+                                    </Typography>
+                                    <Typography variant='p' style={{ textTransform: 'uppercase' }} className='site-text'>
+                                        Du willst dich und deine Familie glücklich machen?
+                                    </Typography>
+                                    <Typography variant='p' className='site-text'>
+                                        Kaufe einen <b>hochwertigen Pool</b> direkt vom Poolbauer aus Hannover. Das Fundament von unseren <b>Betonpool hält Jahrzehnte</b>, sodass vielleicht noch deine Enkelkinder in deinem Pool schwimmen lernen.
+                                    </Typography>
+                                    <Typography variant='p' className='site-text'>
+                                        Bespreche unverbindlich die nächsten Schritte, um schon bald im eigenen Pool die warmen Sonnenstrahlen auf deiner Haut zu genießen. <b>Jetzt starten</b> und endlich zusammen mit einem Poolbauer aus Hannover mit der Umsetzung beginnen: Jetzt einen
+                                        <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} > Beratungstermin vereinbaren.</Link>
+                                    </Typography>
+                                </Grid>
+                                <Grid md={2} item></Grid>
+                            </Grid>
                         </Box>
                     </Box>
                 </Box>
-            </Box>
+            </Box >
         </>
     );
 };
