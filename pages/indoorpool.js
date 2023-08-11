@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { images } from 'views/helpers/constants/ImageConstant';
 import Helmet from "views/component/UI/Helmet"
 
-const Pools = () => {
+const IndoorPool = () => {
 
     const settings = {
         dots: true,
@@ -74,7 +74,7 @@ const Pools = () => {
                             className='skill-items'
                             sx={{ width: '100%' }}
                             aria-label="contacts"
-                            style={{ width: '80%' }}
+                            style={{ width: '70%', margin: '0 auto' }}
                         >
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >
@@ -172,4 +172,4 @@ const Pools = () => {
     );
 };
 
-export default Pools;
+export default IndoorPool;

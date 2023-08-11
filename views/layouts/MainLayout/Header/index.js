@@ -11,7 +11,9 @@ const Header = () => {
 
     const [showButton, setShowButton] = useState(false);
     const [anchorEl, setAnchorEl] = useState(null);
+    const [anchorEll, setAnchorEll] = useState(null);
     const open = Boolean(anchorEl);
+    const openI = Boolean(anchorEll);
 
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
@@ -19,7 +21,12 @@ const Header = () => {
     const handleClose = () => {
         setAnchorEl(null);
     };
-
+    const handleClicked = (event) => {
+        setAnchorEll(event.currentTarget);
+    };
+    const handleClosed = () => {
+        setAnchorEll(null);
+    };
     useEffect(() => {
         const handleScroll = () => {
             const scrollY = window.scrollY;
@@ -38,8 +45,8 @@ const Header = () => {
     }, []);
     const data = [
         { id: 1, name: "Home", href: '/' },
-        { id: 2, name: "Pools", href: 'pools' },
-        { id: 3, name: "Services", href: 'services' },
+        // { id: 2, name: "Pools", href: 'pools' },
+        { id: 3, name: "Wartung", href: 'services' },
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
         // { id: 6, name: "Gallery", href: 'gallery' },
@@ -66,6 +73,15 @@ const Header = () => {
                                 ))}
                                 <ListItem
                                     id="basic-button"
+                                    aria-controls={openI ? 'basic-menu' : undefined}
+                                    aria-haspopup="true"
+                                    aria-expanded={openI ? 'true' : undefined}
+                                    onClick={handleClicked}
+                                >
+                                    <Link>Pools</Link>
+                                </ListItem>
+                                <ListItem
+                                    id="basic-button"
                                     aria-controls={open ? 'basic-menu' : undefined}
                                     aria-haspopup="true"
                                     aria-expanded={open ? 'true' : undefined}
@@ -76,6 +92,18 @@ const Header = () => {
                             </List>
                         </Box>
                     </Box>
+                    <Menu
+                        id="basic-menu"
+                        anchorEl={anchorEll}
+                        open={openI}
+                        onClose={handleClosed}
+                        MenuListProps={{
+                            'aria-labelledby': 'basic-button',
+                        }}
+                    >
+                        <MenuItem onClick={() => { router.push('/indoorpool'); handleClosed() }}>Indoor Pool</MenuItem>
+                        <MenuItem onClick={() => { router.push('/outdoorpool'); handleClosed() }}>Outdoor Pool</MenuItem>
+                    </Menu>
                     <Menu
                         id="basic-menu"
                         anchorEl={anchorEl}

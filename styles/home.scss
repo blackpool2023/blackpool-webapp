@@ -2,9 +2,9 @@
 
 // common 
 .site-heading {
-    font-size: 40px;
-    line-height: 52px;
-    font-weight: 400;
+    font-size: 40px !important;
+    line-height: 52px !important;
+    font-weight: 400 !important;
     // color: #1F1F1F;
     color: $color-white;
     text-align: center;
@@ -221,4 +221,21 @@ video {
 }
 .color-white {
     color: $color-white !important;
+}
+.pt-40 {
+  padding-top: 40px;
+} 
+.pb-50 {
+    padding-bottom: 50px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.site-sub-heading {
+    color: $color-white;
+    text-align: center;
+    font-size: 20px !important;
+}
+.w-80 {
+    width: 80%;
 }
