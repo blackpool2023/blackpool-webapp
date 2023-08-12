@@ -234,6 +234,9 @@ video {
 .pt-10 {
     padding-top: 10px;
 }
+.pt-0 {
+    padding-top: 0;;
+}
 .site-sub-heading {
     color: $color-white;
     text-align: center;
@@ -250,4 +253,13 @@ video {
     .plr-10 {
         padding: 0 10px;
     }
+}
+.text-left {
+    text-align: left;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.skill-items.w-100i {
+    width: 100% !important;
 }
