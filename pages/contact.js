@@ -1,8 +1,9 @@
 
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import "slick-carousel/slick/slick.css";
+import StarIcon from '@mui/icons-material/Star';
 import Helmet from "views/component/UI/Helmet"
 
 const ContactUs = () => {
@@ -30,16 +31,55 @@ const ContactUs = () => {
             <Helmet title='Contact Us - Blackpool' description='blackpool' />
             <Box className='contact-main'>
                 <Box className="contact-banner">
-                    <Typography variant='h2'>Contact Us</Typography>
+                    <Typography variant='h2'>Kontakt</Typography>
                 </Box>
             </Box>
             <div style={formContainerStyle}>
+                <Typography variant='h1' className='site-heading pt-0'>Nachricht senden und Wasserspaß pur erleben!</Typography>
+                <Box style={{ width: '60%', margin: '0 auto' }} >
+                    <Typography variant='p' className='site-text text-left'>
+                        Freust du dich auch schon Cocktail oder Limo schlürfend mit deinen Freunden an deinem eigenen Pool zu sitzen? Ja!
+                    </Typography>
+                    <Typography variant='p' className='site-text text-left'>
+                        Stelle eine Anfrage, wenn du
+                    </Typography>
+                    <List
+                        className='skill-items'
+                        sx={{ width: '100%' }}
+                        aria-label="contacts"
+                        style={{ width: '100%', margin: '0 auto' }}
+                    >
+                        <ListItem disablePadding>
+                            <ListItemIcon style={{ minWidth: '35px' }} >
+                                <StarIcon className='icon-white' />
+                            </ListItemIcon>
+                            <ListItemText className='list-item'>einen <b>eigenen Pool</b> haben willst,</ListItemText>
+                        </ListItem>
+                        <ListItem disablePadding>
+                            <ListItemIcon style={{ minWidth: '35px' }} >
+                                <StarIcon className='icon-white' />
+                            </ListItemIcon>
+                            <ListItemText className='list-item'>Hilfe bei der <b>Wartung</b> benötigst </ListItemText>
+                        </ListItem>
+                        <ListItem disablePadding>
+                            <ListItemIcon style={{ minWidth: '35px' }} >
+                                <StarIcon className='icon-white' />
+                            </ListItemIcon>
+                            <ListItemText className='list-item'>oder du einfach mit uns quatschen willst, um alle deine <b> Fragen zum Thema Pool</b> im Vorfeld zu klären. </ListItemText>
+                        </ListItem>
+                    </List>
+                    <Typography variant='p' className='site-text text-left'>
+                        Verbringe wie viele unserer Kunden <b>eine glückliche Zeit</b> am und im Wasser. Spreche jetzt mit uns:
+                    </Typography>
+                </Box>
+
                 {/* <h2 style={formHeaderStyle}>Contact Us</h2> */}
                 <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
                     {({ isSubmitting }) => (
                         <Form style={{
                             width: '50%',
-                            margin: '0 auto'
+                            margin: '0 auto',
+                            paddingTop: '60px'
                         }} >
                             <div style={formGroupStyle}>
                                 <label style={labelStyle} htmlFor="name">Full Name*</label>

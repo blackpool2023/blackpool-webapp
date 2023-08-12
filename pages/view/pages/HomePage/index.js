@@ -128,8 +128,8 @@ const HomePage = () => {
                         <Box className="about-main pool-facility">
                             <Typography variant='h2' className='site-heading'>Über uns</Typography>
                             <Grid container spacing={3} >
-                                <Grid md={2} item></Grid>
-                                <Grid md={8} item>
+                                {/* <Grid md={2} item></Grid> */}
+                                {/* <Grid md={8} item>
                                     <Typography variant='p' className='site-text'>
                                         „Hey, ich bin Elvis, Poolbauer aus Hannover und Inhaber von BlackPool. Wir alle sollten mehr lachen und schöne Erlebnisse schaffen! Deshalb baue ich für deine Familie aus Niedersachsen, einen maßgefertigten, lange haltbaren Pool aus Beton.
                                     </Typography>
@@ -142,13 +142,29 @@ const HomePage = () => {
                                     <Typography variant='p' className='site-text pt-10'>
                                         Mehr über BlackPool: <Link href='/pools' className='color-white' style={{ textDecoration: 'underline' }}>deine zukünftigen Poolprofis.</Link>
                                     </Typography>
-                                </Grid>
-                                <Grid md={2} item></Grid>
-                                <Grid md={3.5} item></Grid>
+                                </Grid> */}
+                                {/* <Grid md={2} item></Grid> */}
+                                <Grid md={1} item></Grid>
                                 <Grid md={5} item>
                                     <Avatar className='circle-image' src={images.gallery2} alt='gallery image' />
                                 </Grid>
-                                <Grid md={3.5} item></Grid>
+                                <Grid md={5} item style={{ alignItems: 'center', display: 'flex' }}>
+                                    <Box>
+                                        <Typography variant='p' className='site-text text-left' >
+                                            „Hey, ich bin Elvis, Poolbauer aus Hannover und Inhaber von BlackPool. Wir alle sollten mehr lachen und schöne Erlebnisse schaffen! Deshalb baue ich für deine Familie aus Niedersachsen, einen maßgefertigten, lange haltbaren Pool aus Beton.
+                                        </Typography>
+                                        <Typography variant='p' className='site-text pt-10 text-left'>
+                                            Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um mit der Familie Zeit zu verbringen. Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
+                                        </Typography>
+                                        <Typography variant='p' className='site-text pt-10 text-left'>
+                                            Damit du mehr Zeit hast, die Sonne zu genießen, fügen wir deinem neuen Pool moderne Technik hinzu, die Aufgaben wie die Poolpflege automatisieren. Erhalte einen Pool mit allem Drum und Dran in dem du entspannen kannst und der für deine Familie für ordentlich Badespaß sorgt.“
+                                        </Typography>
+                                        <Typography variant='p' className='site-text pt-10 text-left'>
+                                            Mehr über BlackPool: <Link href='/pools' className='color-white' style={{ textDecoration: 'underline' }}>deine zukünftigen Poolprofis.</Link>
+                                        </Typography>
+                                    </Box>
+                                </Grid>
+                                <Grid md={1} item></Grid>
                                 <Grid container spacing={3} style={{ paddingTop: '30px' }}>
                                     <Grid md={2} item></Grid>
                                     <Grid md={8} item>
