@@ -1,6 +1,6 @@
-import { Box, Typography, Grid, Avatar, Link, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
+
+import { Box, Typography, Grid, Avatar, Link } from '@mui/material';
 import Slider from 'react-slick';
-import StarIcon from '@mui/icons-material/Star';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { images } from 'views/helpers/constants/ImageConstant';
@@ -18,7 +18,7 @@ const Pools = () => {
         autoplaySpeed: 1800,
     };
     return (<>
-        <Helmet title='Pool - Blackpool' description='Bau und Planung von deinem Indoor-Pool in Niedersachsen ✓ Mithilfe qualifizierter Fachbetriebe ✓ Ideal für den Wintergarten' />
+        <Helmet title='Pools - Blackpool' description='Poolbau aus Hannover für ganz Niedersachsen ✓ Betonpool bauen lassen ✓ In- und outdoor ✓ Beratung – Planung – Bau → Jetzt Poolbau anfragen!' />
         <Box className='pools-main'>
             <Box className="pool-banner">
                 <Slider {...settings}>
@@ -47,127 +47,107 @@ const Pools = () => {
                 {/* <Typography variant='h2'>Pools</Typography> */}
             </Box>
             <Box className="bg-black">
+                <Typography variant='h1' className='site-heading'>Deinen Traum vom Betonpool wahr werden lassen</Typography>
                 <Box className="container">
                     {/* about */}
-                    {/* <Box style={{ padding: '120px 0' }}>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</Typography>
-                    </Box> */}
-                    <Box className="about-main pool-facility">
-                        <Typography variant='h1' className='site-heading'>Indoor-Pool für deinen Wintergarten</Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text'>
-                            Du kennst es aus dem Hotel – ein Indoor-Pool bedeutet <b>Wellness, Entspannung und Zufriedenheit</b> und das auch <b>unabhängig vom Wetter</b>. Hole dir zusammen mit <b>BlackPool</b> das einmalige Urlaubsfeeling nach Hause, um beispielsweise vor der Arbeit entspannt deine Bahnen zu schwimmen und Kraft für den Alltag zu gewinnen. Im Gegensatz zum Hotelpool nutzt du deine „Home SPA“ zu jeder Tageszeit und ohne die neugierigen Blicke anderer Badegäste.
+                    <Box style={{ width: '70%', margin: '0 auto' }}>
+                        <Typography variant='p' className='site-text'>
+                            <b>Stelle dir vor,</b> wie du dank des professionellen <b>Poolbaus aus Hannover</b> bald eine Bahn im eigenen Betonpool schwimmst. Die Sonne scheint, die Sonnenstrahlen bringen die Wasseroberfläche zum Glitzern, du tauchst unter und mit einem Grinsen wieder auf. Keine nervigen Badegäste stören. Es ist ruhig. Du hörst nur das <b>Lachen deiner Kinder,</b> die mit einem Einhorn-Schwimmring im Wasser planschen. Sie sind entspannt, da ihr nicht im Stau gestanden habt, sondern nur wenige Meter zum Wasser gelaufen seid. Du steigst aus dem Wasser und betrachtest den Pool. Wie ein letztes Puzzleteil fügt er sich perfekt in dein Zuhause ein – es ist <b>eine Traumkulisse.</b>
                         </Typography>
-                        <Typography variant='h2' className='site-sub-heading pt-20'>Indoor-Pool – ein Hallenbad im Haus</Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
-                            Ein eigenes Schwimmbad bzw. einen Indoor-Pool im eigenen Haus ist ein <b>absolutes Highlight,</b> das nicht jeder sein Eigen nennen kann. Beliebt ist es, den Pool im Wintergarten zu platzieren, was <b>sehr praktisch</b> ist. Wind, Regen und Kälte bleiben draußen, während Sonnenstrahlen dir selbst im Winter schöne Momente bescheren.
+                        <Typography variant='p' className='site-text pt-10'>
+                            Umwerfend, oder? Gewinne mit uns ein Stück <b>Lebensqualität.</b> Blackpool baut deinen Betonpool in Niedersachsen, so wie du ihn willst.
                         </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
-                            Nebenbei steigerst du den Wert deines Hauses und erfreust dich über den schönen Anblick des Pools. Wochenend- oder Ferienhäuser wertest du mit einem Pool ebenfalls auf. Wir prüfen, inwieweit ein Einbau möglich ist und bauen dir deinen <b>Traum-Indoor-Pool!</b> Dabei sind verschiedene Formen, Größen und Extras wie ein gemauerter Lounge-Bereich möglich.
+                        <Typography variant='p' className='site-text pt-10'>
+                            <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} >Jetzt Termin vereinbaren </Link>
                         </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto', textAlign: 'left' }} variant='p' className='site-text pt-20'>
-                            BlackPool baut für dich und deine Familie einen individuellen Indoor-Pool. Dabei begegnest du diese
+
+                        <Typography variant='h2' className='site-sub-heading pt-20'>
+                            Dank professionellen Poolbau aus Hannover perfekt auf dein Zuhause abgestimmt
                         </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto', textAlign: 'left' }} variant='p' className='site-text pt-20'>
-                            <b>VORTEILE:</b>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Sicherlich kennst du die vielen Bilder von Poolanlagen auf Instagram oder Pinterest, die, wenn du ehrlich bist, schon ein Stückchen neidisch machen. Stelle dir vor, du kannst nun selbst ein so <b>tolles Bild von deinem Zuhause</b> machen und es deinen Freundinnen zeigen. Genau! Das wäre Wahnsinn und deshalb nehmen wir uns während der Planung genügend Zeit für das Design des Betonpools.
                         </Typography>
-                        <List
-                            className='skill-items'
-                            sx={{ width: '100%' }}
-                            aria-label="contacts"
-                            style={{ width: '80%' }}
-                        >
-                            <ListItem disablePadding className='w-80' >
-                                <ListItemIcon style={{ minWidth: '35px' }} >
-                                    <StarIcon className='icon-white' />
-                                </ListItemIcon>
-                                <ListItemText className='list-item'><b>Familiär:</b> Starte mit einer umfassenden und ehrlichen Beratung, die alle deine Fragen beantwortet. Und finde heraus, wie viel Pool in deinen Wintergarten passt. </ListItemText>
-                            </ListItem>
-                            <ListItem disablePadding className='w-80' >
-                                <ListItemIcon style={{ minWidth: '35px' }} >
-                                    <StarIcon className='icon-white' />
-                                </ListItemIcon>
-                                <ListItemText className='list-item'><b>Fachkundig:</b> Nach der Beratung folgt die Planung, Umsetzung und Wartung in Zusammenarbeit mit qualifizierten Fachbetrieben sowie Architekten. </ListItemText>
-                            </ListItem>
-                            <ListItem disablePadding className='w-80' >
-                                <ListItemIcon style={{ minWidth: '35px' }} >
-                                    <StarIcon className='icon-white' />
-                                </ListItemIcon>
-                                <ListItemText className='list-item'><b>Traumhaft:</b> Erhalte einen Indoor-Pool – ein massives Betonbecken mit folierter Oberfläche, mit dem du dir ein eigenes und haltbares Urlaubsparadies schaffst. </ListItemText>
-                            </ListItem>
-                            <ListItem disablePadding className='w-80' >
-                                <ListItemIcon style={{ minWidth: '35px' }} >
-                                    <StarIcon className='icon-white' />
-                                </ListItemIcon>
-                                <ListItemText className='list-item'><b>Individuell:</b> Verschiedene Maße, Formen und mehrere Folienfarben sind möglich. </ListItemText>
-                            </ListItem>
-                            <ListItem disablePadding className='w-80' >
-                                <ListItemIcon style={{ minWidth: '35px' }} >
-                                    <StarIcon className='icon-white' />
-                                </ListItemIcon>
-                                <ListItemText className='list-item'><b>Modern:</b> Dank kluger Technik, profitierst du von energiesparenden Lösungen, die bequem per Smartphone steuerbar sind. </ListItemText>
-                            </ListItem>
-                        </List>
-                        <Typography variant='h3' className='site-sub-heading pt-20'>Ein paar Bilder zur Inspiration</Typography>
-                        <Grid container spacing={3} style={{ paddingTop: '50px' }}>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Mit dir zusammen stimmen wir die Größe, Form des Pools und die Farbe und Art der Poolwände ab, sodass ein <b>wunderbar harmonisches Ambiente</b> entsteht, das zu dir und deinem Zuhause passt! Hörst du deine Nachbarn auch schon reden? „Die von nebenan haben jetzt einen so geilen Pool!“
+                        </Typography>
+
+                        <Typography variant='h2' className='site-sub-heading pt-20'>
+                            Mit dem Naturprodukt Salz den Pool desinfizieren statt mit Chlor
+                        </Typography>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Ein Betonpool ist <b>dank moderner Technik sparsam im Verbrauch, pflegeleicht und sicher.</b> Wir wählen passende Komponenten für deinen Pool und kümmern uns auch um deren Installation. Auf Wunsch nehmen wir für das fertige Becken eine regelmäßige Poolwartung vor. Du musst dich somit überhaupt nicht mit dem Thema Wasseraufbereitung und den ganzen Technikkram beschäftigen.
+                        </Typography>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Wenn du es trotzdem willst, verraten wir dir gerne im Verlauf des Poolbaus weitere Details. Beispielsweise verwenden viele Poolbesitzer Chlortabletten, um Keime abzutöten. Du musst somit manuell die „Chemie“ dosieren. In den Betonpools von Blackpool kommt die <b>Salzelektrolyse</b> zum Einsatz, wodurch du keine Zusätze wie Chlor mehr hinzufügen musst. Die Zugabe von Salz ins Poolwasser und ein geringer Stromfluss (7,5V) in der Elektrolysezelle bilden Natriumhypochlorit, das wiederum eine unterchlorige Säure sowie Natron ergibt. Diese unterchlorige Säure ist ein Oxidationsmittel das das Poolwasser vollständig desinfiziert. Der Aufwand für eine <b>hohe Wasserqualität</b> ist somit gering.
+                        </Typography>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Ein solcher Salzwasserpool schafft <b>automatisch weiches, keimfreies und hautverträgliches Badewasser.</b> Es brennt nicht in den Augen und auch der typische Chlorgeruch ist weniger penetrant.
+                        </Typography>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Falls du hier ein paar mehr Informationen hören willst, rede mit uns. Gerne erläutern wir, wofür welche Technik notwendig ist.
+                        </Typography>
+
+                        <Typography variant='h2' className='site-sub-heading pt-20'>
+                            Mit Abdeckung und weiteren Extras zu mehr Komfort und Sicherheit
+                        </Typography>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Im Rahmen des Poolbaus in Niedersachsen gestalten wir deinen neuen Pool nach deinen Wünschen. Wähle aus verschiedenen Poolwand-Farben und Formen des Beckens.
+                        </Typography>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Ferner gibt es viel <b>Pool-Zubehör</b> wie eine Beleuchtung, eine Gegenstromanlage, Wärmepumpe, eine gemauerte Treppe oder Lounge-Bank zum Chillen. Inwieweit du dies alles benötigst, besprechen wir persönlich, da dies von deinen individuellen Bedürfnissen abhängt.
+                        </Typography>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Sicherlich sinnvoll und empfehlenswert ist eine <b>ordentliche Poolabdeckung.</b> Eine Unterflur-Rolladenabdeckung ist architektonisch so gestaltet, dass du dich auch bei geschlossener Abdeckung an der Poollandschaft erfreuen kannst. Es gibt keine störenden Behälter, in der die Abdeckung aufbewahrt wird, da sie im Boden integriert ist. Ein Rollschutz liegt glatt auf der Wasseroberfläche auf, sieht gut aus und schützt vor gröberen Verschmutzungen.
+                        </Typography>
+
+                        <Typography variant='h2' className='site-sub-heading pt-40'>
+                            Mit Herzblut dabei – Deine Poolprofis aus Hannover
+                        </Typography>
+                    </Box>
+                    <Box className="about-main pool-facility mt-40">
+                        <Grid container spacing={3}>
                             <Grid md={1} item></Grid>
                             <Grid md={5} item>
-                                <Avatar className='circle-image' src={images.gallery2} alt='gallery image' />
-                            </Grid>
-                            <Grid md={5} item>
-                                <Avatar className='circle-image' src={images.gallery1} alt='gallery image' />
-                            </Grid>
-                            {/* <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
-                                <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
-                                </Typography>
-                            </Grid> */}
-                            <Grid md={1} item></Grid>
-                        </Grid>
-                        <Typography variant='h2' className='site-sub-heading pt-40'>Gefällt dir, was du siehst? Jetzt informieren und ein Angebot erhalten! </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
-                            Träumst du schon davon, wie schön ein eigener Pool ist? Der erfolgreiche Poolbau beginnt mit einer <b>Beratung</b>. Erzähle uns von deinem Wunsch-Indoor-Pool.
-                        </Typography>
-                        {/* <Grid container spacing={3} style={{ flexDirection: 'row-reverse' }} >
-                            <Grid md={1} item></Grid>
-                            <Grid md={5} item>
-                                <Avatar className='circle-image' src={images.gallery1} alt='gallery image' />
+                                <Avatar className='circle-image' src={images.careMaintanance} alt='gallery image' />
                             </Grid>
                             <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
-                                <Typography variant='p' style={{ textAlign: 'right' }} className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</Typography>
+                                <Box>
+                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                        „Hey, ich bin Elvis und Gründer von BlackPool. Mit einem „Poolbau auf Augenhöhe“ planen und bauen wir deinen Pool. Wir hören dir zu, wir erfahren deine Wünsche und gestalten deinen einzigartigen Pool, der dich hoffentlich begeistert.“
+                                    </Typography>
+                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text pt-10'>
+                                        Erfahre mehr über uns: <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }} >die Poolbauer</Link>
+                                    </Typography>
+                                </Box>
                             </Grid>
-                            <Grid md={1} item></Grid> */}
-                        {/* </Grid> */}
-                    </Box>
-                    {/* <Box className="container">
-                    {/* about */}
-                    {/* <Box style={{ padding: '120px 0 60px' }}>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</Typography>
-                    </Box>
-                    <Box className="about-main pool-facility">
-                        <Typography variant='h2' className='site-heading'>Pool Facilities</Typography>
-
-                        <Grid container spacing={3}>
-                            <Grid md={6} item>
-                                <Avatar style={{ width: '100%', height: '350px', borderRadius: '0' }} src={images.gallery2} alt='gallery image' />
-                            </Grid>
-                            <Grid md={6} item style={{ display: 'flex', alignItems: 'center' }}>
-                                <Typography variant='p' className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</Typography>
-                            </Grid>
+                            <Grid md={1} item></Grid>
                         </Grid>
-                        <Grid container spacing={3} style={{ flexDirection: 'row-reverse' }} >
-                            <Grid md={6} item>
-                                <Avatar style={{ width: '100%', height: '350px', borderRadius: '0' }} src={images.gallery1} alt='gallery image' />
+                        <Typography variant='h2' className='site-sub-heading pt-40'>
+                            Jetzt mit deinem Pool-Projekt in Niedersachsen starten?
+                        </Typography>
+                        <Typography variant='p' className='site-text pt-10'>
+                            Nimm mit uns Kontakt auf, lasse dich fachkundig beraten und erfahre die nächsten Schritte des Poolbaus in Hannover und ganz Niedersachsen.
+                            <Typography variant='p' className='site-text pt-10'>
+                                <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }}>Pool anfragen </Link>
+                            </Typography>
+                        </Typography>
+                        {/* <Grid container spacing={3} style={{ flexDirection: 'row-reverse' }} className='mt-40' >
+                            <Grid md={1} item></Grid>
+                            <Grid md={5} item>
+                                <Avatar className='circle-image' src={images.leakDetection} alt='gallery image' />
                             </Grid>
-                            <Grid md={6} item style={{ display: 'flex', alignItems: 'center' }}>
-                                <Typography variant='p' className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</Typography>
+                            <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
+                                <Typography variant='p' style={{ textAlign: 'right' }} className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                                </Typography>
                             </Grid>
-                        </Grid>
-                    </Box> */}
+                            <Grid md={1} item></Grid>
+                        </Grid> */}
+                    </Box>
                     {/* image */}
                     {/* <Gallery /> */}
                 </Box>
             </Box>
-        </Box >
+        </Box>
     </>
     );
 };

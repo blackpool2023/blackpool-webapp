@@ -101,6 +101,7 @@ const Header = () => {
                             'aria-labelledby': 'basic-button',
                         }}
                     >
+                        <MenuItem onClick={() => { router.push('/pools'); handleClosed() }}>Pool</MenuItem>
                         <MenuItem onClick={() => { router.push('/indoorpool'); handleClosed() }}>Indoor Pool</MenuItem>
                         <MenuItem onClick={() => { router.push('/outdoorpool'); handleClosed() }}>Outdoor Pool</MenuItem>
                     </Menu>
