@@ -47,7 +47,7 @@ const Pools = () => {
                 {/* <Typography variant='h2'>Pools</Typography> */}
             </Box>
             <Box className="bg-black">
-                <Typography variant='h1' className='site-heading'>Deinen Traum vom Betonpool wahr werden lassen</Typography>
+                <Typography variant='h1' className='site-heading'>Deinen Traum vom Pool wahr werden lassen</Typography>
                 <Box className="container">
                     {/* about */}
                     <Box style={{ width: '70%', margin: '0 auto' }}>
@@ -113,7 +113,7 @@ const Pools = () => {
                             <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
                                 <Box>
                                     <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
-                                        „Hey, ich bin Elvis und Gründer von BlackPool. Mit einem „Poolbau auf Augenhöhe“ planen und bauen wir deinen Pool. Wir hören dir zu, wir erfahren deine Wünsche und gestalten deinen einzigartigen Pool, der dich hoffentlich begeistert.“
+                                        „Hey, ich bin Elvis und Gründer von BlackPool. Mit einem „Poolbau auf Augenhöhe“ planen und bauen wir deinen Pool. Wir hören dir zu, wir erfahren deine Wünsche und gestalten deinen einzigartigen Pool, der dich begeistert.“
                                     </Typography>
                                     <Typography variant='p' style={{ textAlign: 'left' }} className='site-text pt-10'>
                                         Erfahre mehr über uns: <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }} >die Poolbauer</Link>
