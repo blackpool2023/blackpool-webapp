@@ -91,7 +91,7 @@ const HomePage = () => {
                 {/* <Box className="slide-heading">
                     <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography>
                 </Box> */}
-                <Box className="social-link">
+                <Box className={`social-link ${showButton ? 'sticky-link' : ''}`}>
                     <Link href="#" className="hexagon">
                         <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
                     </Link>
@@ -125,8 +125,8 @@ const HomePage = () => {
                                     <Typography variant='p' className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Typography>
                                 </Grid>
                             </Grid> */}
-                        <Box className="about-main pool-facility">
-                            <Typography variant='h2' className='site-heading'>Über uns</Typography>
+                        <Box className="about-main pool-facility pt-50">
+                            {/* <Typography variant='h2' className='site-heading'>Über uns</Typography> */}
                             <Grid container spacing={3} >
                                 {/* <Grid md={2} item></Grid> */}
                                 {/* <Grid md={8} item>
@@ -151,10 +151,10 @@ const HomePage = () => {
                                 <Grid md={5} item style={{ alignItems: 'center', display: 'flex' }}>
                                     <Box>
                                         <Typography variant='p' className='site-text text-left' >
-                                            „Hey, ich bin Elvis, Poolbauer aus Hannover und Inhaber von BlackPool. Wir alle sollten mehr lachen und schöne Erlebnisse schaffen! Deshalb baue ich für deine Familie aus Niedersachsen, einen maßgefertigten, lange haltbaren Pool aus Beton.
+                                            „Hey, ich bin Elvis, Poolbauer aus Hannover und Inhaber von BlackPool. Nicht in der welt wirkt so ansteckend Wir Lachen und gute Lachen und gute Laune - Wir alle sollten mehr lachen und schöne Erlebnisse schaffen! Deshalb baue ich für deine Familie aus Niedersachsen, einen maßgefertigten, lange haltbaren Pool aus Beton.
                                         </Typography>
                                         <Typography variant='p' className='site-text pt-10 text-left'>
-                                            Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um mit der Familie Zeit zu verbringen. Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
+                                            Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um <b>mit der Familie Zeit zu verbringen.</b> Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
                                         </Typography>
                                         <Typography variant='p' className='site-text pt-10 text-left'>
                                             Damit du mehr Zeit hast, die Sonne zu genießen, fügen wir deinem neuen Pool moderne Technik hinzu, die Aufgaben wie die Poolpflege automatisieren. Erhalte einen Pool mit allem Drum und Dran in dem du entspannen kannst und der für deine Familie für ordentlich Badespaß sorgt.“
@@ -331,7 +331,7 @@ const HomePage = () => {
                                         Du willst dich und deine Familie glücklich machen?
                                     </Typography>
                                     <Typography variant='p' className='site-text'>
-                                        Kaufe einen <b>hochwertigen Pool</b> direkt vom Poolbauer aus Hannover. Das Fundament von unseren <b>Betonpool hält Jahrzehnte</b>, sodass vielleicht noch deine Enkelkinder in deinem Pool schwimmen lernen.
+                                        Kaufe einen <b>hochwertigen Pool</b> direkt bei BlackPool. Das Fundament von unseren <b>Betonpool hält Jahrzehnte</b>, sodass vielleicht noch deine Enkelkinder in deinem Pool schwimmen lernen.
                                     </Typography>
                                     <Typography variant='p' className='site-text'>
                                         Bespreche unverbindlich die nächsten Schritte, um schon bald im eigenen Pool die warmen Sonnenstrahlen auf deiner Haut zu genießen. <b>Jetzt starten</b> und endlich zusammen mit einem Poolbauer aus Hannover mit der Umsetzung beginnen: Jetzt einen

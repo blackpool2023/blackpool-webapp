@@ -225,6 +225,9 @@ video {
 .pt-40 {
   padding-top: 40px;
 } 
+.pt-50 {
+    padding-top: 50px;
+}
 .pb-50 {
     padding-bottom: 50px;
 }
@@ -262,4 +265,8 @@ video {
 }
 .skill-items.w-100i {
     width: 100% !important;
+}
+.social-link.sticky-link {
+    position: fixed;
+    z-index: 11;
 }

@@ -78,13 +78,13 @@ const OutdoorPools = () => {
                                 <ListItemIcon style={{ minWidth: '35px' }} >
                                     <StarIcon className='icon-white' />
                                 </ListItemIcon>
-                                <ListItemText className='list-item'><b>Freibad direkt im Garten:</b> spare Zeit, Fahrtkosten und vermeide Stress, indem du statt zum nächsten Badesee einfach in den Garten gehst.</ListItemText>
+                                <ListItemText className='list-item'><b>Freibad direkt im Garten:</b> spare Zeit und vermeide Stress, indem du statt zum nächsten Badesee einfach in den Garten gehst.</ListItemText>
                             </ListItem>
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >
                                     <StarIcon className='icon-white' />
                                 </ListItemIcon>
-                                <ListItemText className='list-item'><b>Mehr Ruhe:</b> Du brauchst dir keine Sorgen machen, dass deine Wertsachen im Freibad gestohlen werden. Auch gibt es weniger neugierige Blicke, die dich anstarren. Erholung pur!</ListItemText>
+                                <ListItemText className='list-item'><b>Mehr Ruhe:</b> Auch gibt es weniger neugierige Blicke, die dich anstarren. Erholung pur!</ListItemText>
                             </ListItem>
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >

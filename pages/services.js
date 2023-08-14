@@ -110,7 +110,7 @@ const Services = () => {
                             Der Filter wälzt das gesamte Wasser um und hält es sauber. Gröbere Verschmutzungen wie Laub entfernst du mindestens einmal pro Woche. Hierfür eignen sich Poolroboter, die automatisch Verunreinigungen aufsammeln. Manuell funktioniert dies mit einem Kescher.
                         </Typography>
                         <Typography variant='p' className='site-text pt-10'>
-                            Die Technik wie die Umwälzpumpe läuft je nach Beckengröße mehrere Stunden pro Tag. Damit dies ordnungsgemäß möglich ist eine Poolwartung <b>1-2-mal pro Jahr</b> anzustreben:
+                            Die Technik wie die Umwälzpumpe läuft je nach Beckengröße mehrere Stunden pro Tag. Damit dies ordnungsgemäß möglich ist, ist eine Poolwartung <b>1-2-mal pro Jahr</b> anzustreben:
                         </Typography>
 
                         <List

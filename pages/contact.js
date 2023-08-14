@@ -82,22 +82,22 @@ const ContactUs = () => {
                             paddingTop: '60px'
                         }} >
                             <div style={formGroupStyle}>
-                                <label style={labelStyle} htmlFor="name">Full Name*</label>
+                                <label style={labelStyle} htmlFor="name">Vor - und Nachname*</label>
                                 <Field type="text" id="name" name="name" style={inputStyle} />
                                 <ErrorMessage name="name" component="div" style={errorMessageStyle} />
                             </div>
                             <div style={formGroupStyle}>
-                                <label style={labelStyle} htmlFor="email">Email ID*</label>
+                                <label style={labelStyle} htmlFor="email">Ihre Emailadresse*</label>
                                 <Field type="text" id="email" name="email" style={inputStyle} />
                                 <ErrorMessage name="email" component="div" style={errorMessageStyle} />
                             </div>
                             <div style={formGroupStyle}>
-                                <label style={labelStyle} htmlFor="company">Company Name*</label>
+                                <label style={labelStyle} htmlFor="company">Ihre Telefonnummer*</label>
                                 <Field type="text" id="company" name="company" style={inputStyle} />
                                 <ErrorMessage name="company" component="div" style={errorMessageStyle} />
                             </div>
                             <div style={formGroupStyle}>
-                                <label style={labelStyle} htmlFor="message">Message*</label>
+                                <label style={labelStyle} htmlFor="message">Ihre Nachricht an uns*</label>
                                 <Field as="textarea" id="message" name="message" style={inputStyle} />
                                 <ErrorMessage name="message" component="div" style={errorMessageStyle} />
                             </div>
