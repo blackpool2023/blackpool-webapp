@@ -66,11 +66,14 @@ const Header = () => {
                         </Box>
                         <Box className="site-menu">
                             <List>
-                                {data.map((item) => (
+                                {/* {data.map((item) => (
                                     <ListItem key={item.id}>
                                         <Link href={item.href}> {item.name} </Link>
                                     </ListItem>
-                                ))}
+                                ))} */}
+                                <ListItem key={1}>
+                                    <Link href='/'> Home </Link>
+                                </ListItem>
                                 <ListItem
                                     id="basic-button"
                                     aria-controls={openI ? 'basic-menu' : undefined}
@@ -80,6 +83,9 @@ const Header = () => {
                                 >
                                     <Link>Pools</Link>
                                 </ListItem>
+                                <ListItem key={2}>
+                                    <Link href='services'> Wartung</Link>
+                                </ListItem>
                                 <ListItem
                                     id="basic-button"
                                     aria-controls={open ? 'basic-menu' : undefined}
@@ -88,6 +94,9 @@ const Header = () => {
                                     onClick={handleClick}
                                 >
                                     <Link>About</Link>
+                                </ListItem>
+                                <ListItem key={3}>
+                                    <Link href='contact'> Contact </Link>
                                 </ListItem>
                             </List>
                         </Box>
