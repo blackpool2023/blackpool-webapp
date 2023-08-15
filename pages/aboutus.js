@@ -25,25 +25,26 @@ const AboutUs = () => {
                     <Box className="about-main pool-facility">
                         {/* <Typography variant='h2' className='site-heading'>Pool Facilities</Typography> */}
                         <Grid container spacing={3} style={{ paddingTop: '0px' }}>
-                            <Grid md={1} item></Grid>
-                            <Grid md={5} item>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
+                            <Grid lg={5} md={6} sm={12} xs={12} item>
                                 <Avatar className='circle-image' src={images.gallery2} alt='gallery image' />
                             </Grid>
-                            <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
-                                <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                            <Grid lg={5} md={6} sm={12} xs={12} item style={{ display: 'flex', alignItems: 'center' }}>
+                                <Typography variant='p' className='text-left site-text center-md'>
                                     Kennst du Menschen, die sich für eine bestimmte Sache extrem begeistern können? Sie sind voller Power und wahre Experten, weil sie <b>einfach lieben, was sie tun.</b>
-                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                    <Typography variant='p' className='text-left site-text center-md'>
                                         Ich – <b>Elvis</b> – könnte nun wie andere Poolbauer Ereignisse aus meinem Lebenslauf auflisten oder erzählen, wie viele Meister im Team sind. Denn mit meiner Branchenerfahrung im Großhandel lernte ich nahezu alle Materialien rund um den Poolbau kennen und auch bei einem Poolbauer lernte ich von der Pike auf, wie Pools in hoher Qualität geplant und gebaut werden.
                                     </Typography>
-                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                    <Typography variant='p' className='text-left site-text center-md'>
                                         Doch viel wichtiger als ein Titel ist das warum.
                                     </Typography>
-                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                    <Typography variant='p' className='text-left site-text center-md'>
                                         Nach sieben Erfahrungsjahren kam der Wunsch nach Veränderung, um noch tiefer in die Materie abzutauchen. Ich gründete <b>BlackPool,</b> weil ich dafür verantwortlich sein will, <b>Familien den Traum von einem eigenen Pool zu ermöglichen.</b> Denn auch wenn es etwas kitschig klingt: die Emotionen zu erleben, die meine Kunden am ganzen Körper zeigen, wenn sie den fertigen Pool sehen, ist etwas Wunderbares.
                                     </Typography>
                                 </Typography>
                             </Grid>
-                            <Grid md={1} item></Grid>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
+
                             <Grid md={1} item></Grid>
                             <Grid md={10} item>
                                 <Typography variant='p' style={{ textAlign: 'center' }} className='site-text'>

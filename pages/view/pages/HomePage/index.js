@@ -102,10 +102,7 @@ const HomePage = () => {
                         <PermContactCalendarIcon />
                     </Link>
                 </Box>
-                <button
-                    className={`scrollButton ${showButton ? 'show' : ''}`}
-                    onClick={handleScrollToTop}
-                >
+                <button className={`scrollButton ${showButton ? 'show' : ''}`} onClick={handleScrollToTop}>
                     <KeyboardArrowUpIcon />
                 </button>
                 {/* banner */}
@@ -144,23 +141,23 @@ const HomePage = () => {
                                     </Typography>
                                 </Grid> */}
                                 {/* <Grid md={2} item></Grid> */}
-                                <Grid md={1} item></Grid>
-                                <Grid md={5} item>
+                                <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
+                                <Grid lg={5} md={6} sm={12} xs={12} item>
                                     <Avatar className='circle-image' src={images.gallery2} alt='gallery image' />
                                 </Grid>
-                                <Grid md={5} item style={{ alignItems: 'center', display: 'flex' }}>
-                                    <Box>
-                                        <Typography variant='p' className='site-text' >
-                                            „Hey, ich bin <b>Elvis, Poolbauer aus<br /> Hannover und Inhaber von BlackPool.</b> <br />Nichts in der Welt wirkt so ansteckend<br /> wie Lachen und gute Laune - Wir alle <br />sollten mehr lachen und schöne<br /> Erlebnisse schaffen! Deshalb baue ich<br /> für deine Familie aus Niedersachsen,<br /> einen <b>maßgefertigten, lange haltbaren <br />Pool aus Beton.</b>
-                                            {/* „Hey, ich bin Elvis, Poolbauer aus Hannover und Inhaber von BlackPool. Nicht in der welt wirkt so ansteckend Wir Lachen und gute Lachen und gute Laune - Wir alle sollten mehr lachen und schöne Erlebnisse schaffen! Deshalb baue ich für deine Familie aus Niedersachsen, einen maßgefertigten, lange haltbaren Pool aus Beton. */}
-                                        </Typography>
-
-                                    </Box>
+                                <Grid lg={5} md={6} sm={12} xs={12} item className='justify-center' style={{ alignItems: 'center', display: 'flex' }}>
+                                    {/* <Box> */}
+                                    <Typography variant='p' className='site-text' >
+                                        „Hey, ich bin <b>Elvis, Poolbauer aus<br /> Hannover und Inhaber von BlackPool.</b> <br />Nichts in der Welt wirkt so ansteckend<br /> wie Lachen und gute Laune - Wir alle <br />sollten mehr lachen und schöne<br /> Erlebnisse schaffen! Deshalb baue ich<br /> für deine Familie aus Niedersachsen,<br /> einen <b>maßgefertigten, lange haltbaren <br />Pool aus Beton.</b>
+                                        {/* „Hey, ich bin Elvis, Poolbauer aus Hannover und Inhaber von BlackPool. Nicht in der welt wirkt so ansteckend Wir Lachen und gute Lachen und gute Laune - Wir alle sollten mehr lachen und schöne Erlebnisse schaffen! Deshalb baue ich für deine Familie aus Niedersachsen, einen maßgefertigten, lange haltbaren Pool aus Beton. */}
+                                    </Typography>
+                                    {/* </Box> */}
                                 </Grid>
-                                <Grid md={1} item></Grid>
+                                <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
+
                                 <Grid container spacing={3} style={{ paddingTop: '30px' }}>
-                                    <Grid md={2} item></Grid>
-                                    <Grid md={8} item>
+                                    <Grid lg={2} md={1} sm={12} xs={12} item></Grid>
+                                    <Grid lg={8} md={10} sm={12} xs={12} item>
                                         <Typography variant='p' className='site-text pt-10'>
                                             Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um <b>mit der Familie Zeit zu verbringen.</b> Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
                                         </Typography>
@@ -174,9 +171,10 @@ const HomePage = () => {
                                             Endlich ein eigener Pool für die ganze Familie
                                         </Typography>
                                     </Grid>
-                                    <Grid md={2} item></Grid>
-                                    <Grid md={2} item></Grid>
-                                    <Grid md={8} item>
+                                    <Grid lg={2} md={1} sm={12} xs={12} item></Grid>
+
+                                    <Grid lg={2} md={1} sm={12} xs={12} item></Grid>
+                                    <Grid lg={8} md={10} sm={12} xs={12} item>
                                         <Typography variant='p' className='site-text'>
                                             Die Idee ist da. Seit einiger Zeit denkst du über dein Vorhaben nach und in deinem Kopf malst du dir bereits aus, wie du und deine Liebsten eine schöne Zeit am eigenen Pool verbringen. Du schwimmst entspannt deine Bahnen, während warme Sonnenstrahlen auf deine Haut treffen. Deine Kinder planschen, springen vom Beckenrand in deine Arme und spielen Wasserball. Es wird viel gelacht. Es ist wie Urlaub, nur ohne das nervige Gedrängel an den Touristenorten und die lange Anfahrt spart ihr euch ebenfalls.
                                         </Typography>
@@ -187,7 +185,7 @@ const HomePage = () => {
                                             Wir, die Poolbauer aus Hannover, planen und bauen moderne Pools in Niedersachsen. Vereinbare ein unverbindliches Beratungsgespräch, damit du Klarheit über offene Fragen erhältst und damit du schon bald am eigenen Pool liegst: <Link href='/' className='color-white' style={{ textDecoration: 'underline' }} >Ja, ich will Urlaub für zu Hause!</Link>
                                         </Typography>
                                     </Grid>
-                                    <Grid md={2} item></Grid>
+                                    <Grid lg={2} md={1} sm={12} xs={12} item></Grid>
                                 </Grid>
                             </Grid>
                         </Box>

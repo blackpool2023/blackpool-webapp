@@ -93,6 +93,32 @@
         }
     }
 }
+.toggle-button {
+    // position: absolute !important;
+    z-index: 1;
+    right: 0;
+    display: none !important;
+    @media (max-width: 900px) {
+        display: block !important;
+    }
+    svg {
+        font-size: 30px;
+        path {
+            color: $color-white;
+        }
+    }
+}
+.d-none {
+    display: none !important;
+}
+.d-block {
+    display: flex !important;
+}
+.justify-center {
+    @media (max-width: 900px) {
+       justify-content: center;
+    }
+}
 .header-main {
     position: absolute;
     top: 0;
@@ -117,6 +143,9 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        @media (max-width: 1140px) {
+            max-width: 80%;
+        }
         .header-container {
             display: flex;
             align-items: center;
@@ -134,9 +163,24 @@
                 }
             }
             .site-menu {
+                @media (max-width: 900px) {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    display: none;
+                    align-items: center;
+                    justify-content: center;
+                    top: 0;
+                    text-align: center;
+                    background: $black-color;
+                    padding: 10px;
+                }
                 .MuiList-root {
                     display: flex;
                     padding: 0;
+                    @media (max-width: 900px) {
+                        display: block;
+                    }
                     .MuiListItem-root {
                         // padding: 25px;
                         // &:hover {

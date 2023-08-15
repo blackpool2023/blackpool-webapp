@@ -57,10 +57,10 @@ const OutdoorPools = () => {
                     </Box> */}
                     <Box className="about-main pool-facility">
                         <Typography variant='h1' className='site-heading'>Outdoor-Pool – ein Freibad im Garten</Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text'>
+                        <Typography style={{ margin: '0 auto' }} variant='p' className='site-text w-70'>
                             Es ist 30 Grad, die Sonne strahlt und du denkst „Eine Abkühlung wäre jetzt genau das Richtige!“. Du öffnest deine Terrassentür und vor dir siehst du einen <b>schicken Outdoor-Pool,</b> der sich optimal als Blickfang in deinen Garten einfügt. Mit einem Finger-Touch auf deinem Smartphone fährt die Abdeckung beiseite. Sonnenstrahlen treffen auf das kristallklare Wasser und du springst mit einem Grinsen ins kühle Nass.
                         </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text'>
+                        <Typography style={{ margin: '0 auto' }} variant='p' className='site-text w-70'>
                             <b>
                                 Kein Bademeister ruft „Nicht vom Beckenrand springen!“, denn mit BlackPool ist die oben beschriebene Situation keine Fata Morgana oder eine Tagträumerei. Statt ins überlaufende Freibad zu fahren, erhältst du mit uns eine bessere Option: deinen eigenen Outdoor-Pool, direkt in deinen Garten in Niedersachsen.
                             </b>
@@ -68,14 +68,14 @@ const OutdoorPools = () => {
                         <Typography variant='h2' className='site-sub-heading pt-20'>
                             Ein Stück mehr Freiheit: Dein zukünftiger Outdoor-Pool
                         </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
+                        <Typography style={{ margin: '0 auto' }} variant='p' className='site-text pt-20 w-70'>
                             Wir planen deinen Pool und koordinieren auch den Bau des Pools durch fachkundige Handwerker. Wir installieren ebenso die Technik, sodass du <b>einen vollständigen und pflegeleichten</b> Outdoor-Pool erhältst. Freue dich auf einen eigenen Outdoor-Pool mit vielen Vorteilen:
                         </Typography>
                         <List
-                            className='skill-items'
+                            className='skill-items w-70'
                             sx={{ width: '100%' }}
                             aria-label="contacts"
-                            style={{ width: '70%', margin: '0 auto' }}
+                            style={{ margin: '0 auto' }}
                         >
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >
@@ -116,11 +116,11 @@ const OutdoorPools = () => {
                         </List>
                         <Typography variant='h3' className='site-sub-heading pt-20'>Lass dich Inspirieren</Typography>
                         <Grid container spacing={3} style={{ paddingTop: '50px' }}>
-                            <Grid md={1} item></Grid>
-                            <Grid md={5} item>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
+                            <Grid lg={5} md={6} sm={12} xs={12} item>
                                 <Avatar className='circle-image' src='/pool/outdoor-inspiration1.png' alt='outdoor inspiration image' />
                             </Grid>
-                            <Grid md={5} item>
+                            <Grid lg={5} md={6} sm={12} xs={12} item>
                                 <Avatar className='circle-image' src='/pool/outdoor-inspiration2.jpg' alt='outdoor inspiration image' />
                             </Grid>
                             {/* <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
@@ -128,10 +128,10 @@ const OutdoorPools = () => {
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
                                 </Typography>
                             </Grid> */}
-                            <Grid md={1} item></Grid>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
                         </Grid>
                         <Typography variant='h2' className='site-sub-heading pt-40'>Dir gefallen die Bilder? Perfekt! Lass dich beraten.</Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
+                        <Typography style={{ margin: '0 auto' }} variant='p' className='site-text pt-20 w-70'>
                             Vereinbare einen Beratungstermin und springe schon bald in deinen eigenen Outdoor-Pool!
                         </Typography>
                         {/* <Grid container spacing={3} style={{ flexDirection: 'row-reverse' }} >
