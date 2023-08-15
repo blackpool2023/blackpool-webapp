@@ -1,9 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
-import { AppBar, Menu, MenuItem, Box, List, ListItem } from '@mui/material';
+import { AppBar, Menu, MenuItem, Box, List, ListItem, Button } from '@mui/material';
 import { Link } from '@mui/material';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import DehazeIcon from '@mui/icons-material/Dehaze';
+import ClearIcon from '@mui/icons-material/Clear';
 import { images } from 'views/helpers/constants/ImageConstant';
 
 const Header = () => {
@@ -12,6 +14,7 @@ const Header = () => {
     const [showButton, setShowButton] = useState(false);
     const [anchorEl, setAnchorEl] = useState(null);
     const [anchorEll, setAnchorEll] = useState(null);
+    const [toggle, setToggle] = useState(false);
     const open = Boolean(anchorEl);
     const openI = Boolean(anchorEll);
 
@@ -55,6 +58,7 @@ const Header = () => {
     return (
         <AppBar position="static">
             <Box className={`header-main ${showButton ? 'sticky-header' : ''}`}>
+
                 <Box className="container-fluid">
                     <Box className="header-container">
                         <Box className="site-logo">
@@ -64,7 +68,10 @@ const Header = () => {
                                 <Image src={images.logo} alt="logo" height={100} width={100} />
                             </Link>
                         </Box>
-                        <Box className="site-menu">
+                        <Button className="toggle-button" onClick={() => setToggle(!toggle)} >
+                            {toggle ? <ClearIcon /> : <DehazeIcon />}
+                        </Button>
+                        <Box className={toggle ? "d-block site-menu" : "site-menu"} >
                             <List>
                                 {/* {data.map((item) => (
                                     <ListItem key={item.id}>

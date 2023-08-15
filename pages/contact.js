@@ -36,7 +36,7 @@ const ContactUs = () => {
             </Box>
             <div style={formContainerStyle}>
                 <Typography variant='h1' className='site-heading pt-0'>Nachricht senden und Wasserspaß pur erleben!</Typography>
-                <Box style={{ width: '60%', margin: '0 auto' }} >
+                <Box className="w-60" style={{ margin: '0 auto' }} >
                     <Typography variant='p' className='site-text text-left'>
                         Freust du dich auch schon Cocktail oder Limo schlürfend mit deinen Freunden an deinem eigenen Pool zu sitzen? Ja!
                     </Typography>
@@ -76,11 +76,11 @@ const ContactUs = () => {
                 {/* <h2 style={formHeaderStyle}>Contact Us</h2> */}
                 <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
                     {({ isSubmitting }) => (
-                        <Form style={{
-                            width: '50%',
-                            margin: '0 auto',
-                            paddingTop: '60px'
-                        }} >
+                        <Form className="w-50"
+                            style={{
+                                margin: '0 auto',
+                                paddingTop: '60px'
+                            }} >
                             <div style={formGroupStyle}>
                                 <label style={labelStyle} htmlFor="name">Vor - und Nachname*</label>
                                 <Field type="text" id="name" name="name" style={inputStyle} />
@@ -113,7 +113,7 @@ const ContactUs = () => {
 };
 const formContainerStyle = {
     margin: '0px auto',
-    padding: '80px',
+    padding: '50px',
     borderRadius: '4px',
     background: 'black',
     color: 'white'

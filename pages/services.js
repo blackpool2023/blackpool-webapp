@@ -51,7 +51,7 @@ const Services = () => {
                 <Typography variant='h1' className='site-heading'>Poolwartung – Pool-Service in Hannover & um zu beauftragen</Typography>
                 <Box className="container">
                     {/* about */}
-                    <Box style={{ width: '70%', margin: '0 auto' }}>
+                    <Box className="w-70" style={{ margin: '0 auto' }}>
                         <Typography variant='p' className='site-text'>
                             Dein Pool in Niedersachsen, z. B. in Hannover beschert dir und deiner Familie ein Plus an Lebensqualität, solange er funktionstüchtig bleibt. Ein <b>Pool-Service</b> wie die <b>regelmäßige Poolwartung</b> gewährleistet eine <b>sichere Nutzung und sauberes Wasser.</b>
                         </Typography>
@@ -139,24 +139,24 @@ const Services = () => {
                     </Box>
                     <Box className="about-main pool-facility mt-40">
                         <Grid container spacing={3}>
-                            <Grid md={1} item></Grid>
-                            <Grid md={5} item>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
+                            <Grid lg={5} md={6} sm={12} xs={12} item>
                                 <Avatar className='circle-image' src={images.careMaintanance} alt='gallery image' />
                             </Grid>
-                            <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
+                            <Grid lg={5} md={6} sm={12} xs={12} item style={{ display: 'flex', alignItems: 'center' }}>
                                 <Box>
-                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                    <Typography variant='p' className='text-left site-text center-md'>
                                         „Hey, ich bin Elvis und der Kopf hinter BlackPool. Mein Team und ich planen individuelle Pools in Niedersachsen, insbesondere in und um Hannover für deinen Garten oder für den Indoor-Bereich.
                                     </Typography>
-                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                    <Typography variant='p' className='text-left site-text center-md'>
                                         Es sind moderne Betonpools, die der Umwelt zuliebe lange halten und auch noch richtig gut aussehen. Damit die sorgfältig ausgewählte Technik jahrelang funktioniert, übernehmen wir mit unserem Pool-Service deine Poolwartung.“
                                     </Typography>
-                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text pt-10'>
+                                    <Typography variant='p' className='text-left site-text pt-10 center-md'>
                                         Hier mehr über uns lesen: <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }} >mehr über uns.</Link>
                                     </Typography>
                                 </Box>
                             </Grid>
-                            <Grid md={1} item></Grid>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
                         </Grid>
                         <Typography variant='h2' className='site-sub-heading pt-40'>
                             Jetzt Poolwartung anfragen

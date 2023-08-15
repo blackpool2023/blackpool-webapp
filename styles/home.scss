@@ -211,6 +211,20 @@ video {
         line-height: 90px;
         position: absolute;
         padding-left: 150px;
+        @media (max-width: 1140px) {
+            font-size: 50px;
+        }
+        @media (max-width: 900px) {
+            font-size: 35px;
+        }
+        @media (max-width: 640px) {
+            font-size: 25px;
+            padding-left: 40px;
+        }
+        @media (max-width: 460px) {
+            font-size: 18px;
+            padding-left: 40px;
+        }
         .fw-800 {
             font-weight: 800;
         }
@@ -253,6 +267,9 @@ video {
     width: 80%;
     margin: 0 auto;
     padding-top: 20px;
+    @media (max-width: 900px) {
+        display: block;
+    }
     .plr-10 {
         padding: 0 10px;
     }
@@ -269,4 +286,15 @@ video {
 .social-link.sticky-link {
     position: fixed;
     z-index: 11;
+}
+.center-md {
+    @media (max-width: 900px) {
+        text-align: center;
+    }
+}
+.w-70 {
+    width: 70%;
+    @media (max-width: 900px) {
+        width: 100%;
+    }
 }
