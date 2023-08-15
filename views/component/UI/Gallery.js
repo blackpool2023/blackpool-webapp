@@ -103,12 +103,12 @@ export default function Gallery() {
                 <a
                     data-lg-size="1406-1390"
                     className="gallery-item"
-                    data-src="/pool/2.jpg"
+                    data-src="/pool/indoor-inspiration1.jpg"
                     data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
                 >
                     <img
                         className="img-responsive"
-                        src="/pool/2.jpg"
+                        src="/pool/indoor-inspiration1.jpg"
                     />
                 </a>
                 {/* </Grid> */}
@@ -116,12 +116,12 @@ export default function Gallery() {
                 <a
                     data-lg-size="1406-1390"
                     className="gallery-item"
-                    data-src="/pool/14.jpg"
+                    data-src="/pool/outdoor-inspiration1.png"
                     data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
                 >
                     <img
                         className="img-responsive"
-                        src="/pool/14.jpg"
+                        src="/pool/outdoor-inspiration1.png"
                     />
                 </a>
                 {/* </Grid> */}
@@ -129,12 +129,12 @@ export default function Gallery() {
                 <a
                     data-lg-size="1406-1390"
                     className="gallery-item"
-                    data-src="/pool/9.jpg"
+                    data-src="/pool/outdoor-inspiration2.jpg"
                     data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
                 >
                     <img
                         className="img-responsive"
-                        src="/pool/9.jpg"
+                        src="/pool/outdoor-inspiration2.jpg"
                     />
                 </a>
                 {/* </Box> */}
