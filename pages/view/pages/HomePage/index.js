@@ -150,26 +150,27 @@ const HomePage = () => {
                                 </Grid>
                                 <Grid md={5} item style={{ alignItems: 'center', display: 'flex' }}>
                                     <Box>
-                                        <Typography variant='p' className='site-text text-left' >
-                                            „Hey, ich bin Elvis, Poolbauer aus Hannover und Inhaber von BlackPool. Nichts in der Welt wirkt so ansteckend wie Lachen und gute Laune - Wir alle sollten mehr lachen und schöne Erlebnisse schaffen! Deshalb baue ich für deine Familie aus Niedersachsen, einen maßgefertigten, lange haltbaren Pool aus Beton.
+                                        <Typography variant='p' className='site-text' >
+                                            „Hey, ich bin <b>Elvis, Poolbauer aus<br /> Hannover und Inhaber von BlackPool.</b> <br />Nichts in der Welt wirkt so ansteckend<br /> wie Lachen und gute Laune - Wir alle <br />sollten mehr lachen und schöne<br /> Erlebnisse schaffen! Deshalb baue ich<br /> für deine Familie aus Niedersachsen,<br /> einen <b>maßgefertigten, lange haltbaren <br />Pool aus Beton.</b>
                                             {/* „Hey, ich bin Elvis, Poolbauer aus Hannover und Inhaber von BlackPool. Nicht in der welt wirkt so ansteckend Wir Lachen und gute Lachen und gute Laune - Wir alle sollten mehr lachen und schöne Erlebnisse schaffen! Deshalb baue ich für deine Familie aus Niedersachsen, einen maßgefertigten, lange haltbaren Pool aus Beton. */}
                                         </Typography>
-                                        <Typography variant='p' className='site-text pt-10 text-left'>
-                                            Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um <b>mit der Familie Zeit zu verbringen.</b> Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
-                                        </Typography>
-                                        <Typography variant='p' className='site-text pt-10 text-left'>
-                                            Damit du mehr Zeit hast, die Sonne zu genießen, fügen wir deinem neuen Pool moderne Technik hinzu, die Aufgaben wie die Poolpflege automatisieren. Erhalte einen Pool mit allem Drum und Dran in dem du entspannen kannst und der für deine Familie für ordentlich Badespaß sorgt.“
-                                        </Typography>
-                                        <Typography variant='p' className='site-text pt-10 text-left'>
-                                            Mehr über BlackPool: <Link href='/pools' className='color-white' style={{ textDecoration: 'underline' }}>deine zukünftigen Poolprofis.</Link>
-                                        </Typography>
+
                                     </Box>
                                 </Grid>
                                 <Grid md={1} item></Grid>
                                 <Grid container spacing={3} style={{ paddingTop: '30px' }}>
                                     <Grid md={2} item></Grid>
                                     <Grid md={8} item>
-                                        <Typography variant='h2' style={{ textTransform: 'uppercase' }} className='site-text'>
+                                        <Typography variant='p' className='site-text pt-10'>
+                                            Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um <b>mit der Familie Zeit zu verbringen.</b> Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
+                                        </Typography>
+                                        <Typography variant='p' className='site-text pt-10'>
+                                            Damit du mehr Zeit hast, die Sonne zu genießen, fügen wir deinem neuen Pool moderne Technik hinzu, die Aufgaben wie die Poolpflege automatisieren. Erhalte einen Pool mit allem Drum und Dran in dem du entspannen kannst und der für deine Familie für ordentlich Badespaß sorgt.“
+                                        </Typography>
+                                        <Typography variant='p' className='site-text pt-10'>
+                                            Mehr über BlackPool: <Link href='/pools' className='color-white' style={{ textDecoration: 'underline' }}>deine zukünftigen Poolprofis.</Link>
+                                        </Typography>
+                                        <Typography variant='h2' style={{ textTransform: 'uppercase' }} className='site-text pt-20'>
                                             Endlich ein eigener Pool für die ganze Familie
                                         </Typography>
                                     </Grid>

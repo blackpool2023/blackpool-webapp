@@ -24,10 +24,13 @@ const IndoorPool = () => {
                 <Slider {...settings}>
                     <div key={1}>
                         <Link href="#">
-                            <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/9.jpg'} alt='banner image' />
+                            <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={images.gallery1} alt='banner image' />
                         </Link>
+                        {/* <Link href="#">
+                            <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/9.jpg'} alt='banner image' />
+                        </Link> */}
                     </div>
-                    <div key={2}>
+                    {/* <div key={2}>
                         <Link href="#">
                             <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/10.jpg'} alt='banner image' />
                         </Link>
@@ -41,7 +44,7 @@ const IndoorPool = () => {
                         <Link href="#">
                             <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/24.jpg'} alt='banner image' />
                         </Link>
-                    </div>
+                    </div> */}
                 </Slider>
 
                 {/* <Typography variant='h2'>Pools</Typography> */}
@@ -111,10 +114,10 @@ const IndoorPool = () => {
                         <Grid container spacing={3} style={{ paddingTop: '50px' }}>
                             <Grid md={1} item></Grid>
                             <Grid md={5} item>
-                                <Avatar className='circle-image' src={images.gallery2} alt='gallery image' />
+                                <Avatar className='circle-image' src='/pool/indoor-inspiration1.jpg' alt='indoor inspiration image' />
                             </Grid>
                             <Grid md={5} item>
-                                <Avatar className='circle-image' src={images.gallery1} alt='gallery image' />
+                                <Avatar className='circle-image' src='/pool/indoor-inspiration2.jpg' alt='indoor inspiration image' />
                             </Grid>
                             {/* <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
                                 <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
