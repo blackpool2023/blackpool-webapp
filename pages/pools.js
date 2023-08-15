@@ -50,7 +50,7 @@ const Pools = () => {
                 <Typography variant='h1' className='site-heading'>Deinen Traum vom Pool wahr werden lassen</Typography>
                 <Box className="container">
                     {/* about */}
-                    <Box style={{ width: '70%', margin: '0 auto' }}>
+                    <Box className='w-70' style={{ margin: '0 auto' }}>
                         <Typography variant='p' className='site-text'>
                             <b>Stelle dir vor,</b> wie du dank des professionellen <b>Poolbaus aus Hannover</b> bald eine Bahn im eigenen Betonpool schwimmst. Die Sonne scheint, die Sonnenstrahlen bringen die Wasseroberfläche zum Glitzern, du tauchst unter und mit einem Grinsen wieder auf. Keine nervigen Badegäste stören. Es ist ruhig. Du hörst nur das <b>Lachen deiner Kinder,</b> die mit einem Einhorn-Schwimmring im Wasser planschen. Sie sind entspannt, da ihr nicht im Stau gestanden habt, sondern nur wenige Meter zum Wasser gelaufen seid. Du steigst aus dem Wasser und betrachtest den Pool. Wie ein letztes Puzzleteil fügt er sich perfekt in dein Zuhause ein – es ist <b>eine Traumkulisse.</b>
                         </Typography>
@@ -106,21 +106,21 @@ const Pools = () => {
                     </Box>
                     <Box className="about-main pool-facility mt-40">
                         <Grid container spacing={3}>
-                            <Grid md={1} item></Grid>
-                            <Grid md={5} item>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
+                            <Grid lg={5} md={6} sm={12} xs={12} item>
                                 <Avatar className='circle-image' src={images.careMaintanance} alt='gallery image' />
                             </Grid>
-                            <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
+                            <Grid lg={5} md={6} sm={12} xs={12} item style={{ display: 'flex', alignItems: 'center' }}>
                                 <Box>
-                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
+                                    <Typography variant='p' className='text-left site-text center-md'>
                                         „Hey, ich bin Elvis und Gründer von BlackPool. Mit einem „Poolbau auf Augenhöhe“ planen und bauen wir deinen Pool. Wir hören dir zu, wir erfahren deine Wünsche und gestalten deinen einzigartigen Pool, der dich begeistert.“
                                     </Typography>
-                                    <Typography variant='p' style={{ textAlign: 'left' }} className='site-text pt-10'>
+                                    <Typography variant='p' className='text-left site-text pt-10 center-md'>
                                         Erfahre mehr über uns: <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }} >die Poolbauer</Link>
                                     </Typography>
                                 </Box>
                             </Grid>
-                            <Grid md={1} item></Grid>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
                         </Grid>
                         <Typography variant='h2' className='site-sub-heading pt-40'>
                             Jetzt mit deinem Pool-Projekt in Niedersachsen starten?

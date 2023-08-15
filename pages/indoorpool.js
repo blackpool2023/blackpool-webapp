@@ -57,27 +57,27 @@ const IndoorPool = () => {
                     </Box> */}
                     <Box className="about-main pool-facility">
                         <Typography variant='h1' className='site-heading'>Indoor-Pool für deinen Wintergarten</Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text'>
+                        <Typography style={{ margin: '0 auto' }} variant='p' className='site-text w-70'>
                             Du kennst es aus dem Hotel – ein Indoor-Pool bedeutet <b>Wellness, Entspannung und Zufriedenheit</b> und das auch <b>unabhängig vom Wetter</b>. Hole dir zusammen mit <b>BlackPool</b> das einmalige Urlaubsfeeling nach Hause, um beispielsweise vor der Arbeit entspannt deine Bahnen zu schwimmen und Kraft für den Alltag zu gewinnen. Im Gegensatz zum Hotelpool nutzt du deine „Home SPA“ zu jeder Tageszeit und ohne die neugierigen Blicke anderer Badegäste.
                         </Typography>
                         <Typography variant='h2' className='site-sub-heading pt-20'>Indoor-Pool – ein Hallenbad im Haus</Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
+                        <Typography style={{ margin: '0 auto' }} variant='p' className='site-text pt-20 w-70'>
                             Ein eigenes Schwimmbad bzw. einen Indoor-Pool im eigenen Haus ist ein <b>absolutes Highlight,</b> das nicht jeder sein Eigen nennen kann. Beliebt ist es, den Pool im Wintergarten zu platzieren, was <b>sehr praktisch</b> ist. Wind, Regen und Kälte bleiben draußen, während Sonnenstrahlen dir selbst im Winter schöne Momente bescheren.
                         </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
+                        <Typography style={{ margin: '0 auto' }} variant='p' className='site-text pt-20 w-70'>
                             Nebenbei steigerst du den Wert deines Hauses und erfreust dich über den schönen Anblick des Pools. Wochenend- oder Ferienhäuser wertest du mit einem Pool ebenfalls auf. Wir prüfen, inwieweit ein Einbau möglich ist und bauen dir deinen <b>Traum-Indoor-Pool!</b> Dabei sind verschiedene Formen, Größen und Extras wie ein gemauerter Lounge-Bereich möglich.
                         </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto', textAlign: 'left' }} variant='p' className='site-text pt-20'>
+                        <Typography style={{ margin: '0 auto', textAlign: 'left' }} variant='p' className='site-text pt-20 w-70'>
                             BlackPool baut für dich und deine Familie einen individuellen Indoor-Pool. Dabei begegnest du diese
                         </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto', textAlign: 'left' }} variant='p' className='site-text pt-20'>
+                        <Typography style={{ margin: '0 auto', textAlign: 'left' }} variant='p' className='site-text pt-20 w-70'>
                             <b>VORTEILE:</b>
                         </Typography>
                         <List
-                            className='skill-items'
+                            className='skill-items w-70'
                             sx={{ width: '100%' }}
                             aria-label="contacts"
-                            style={{ width: '70%', margin: '0 auto' }}
+                            style={{ margin: '0 auto' }}
                         >
                             <ListItem disablePadding className='w-80' >
                                 <ListItemIcon style={{ minWidth: '35px' }} >
@@ -112,22 +112,23 @@ const IndoorPool = () => {
                         </List>
                         <Typography variant='h3' className='site-sub-heading pt-20'>Ein paar Bilder zur Inspiration</Typography>
                         <Grid container spacing={3} style={{ paddingTop: '50px' }}>
-                            <Grid md={1} item></Grid>
-                            <Grid md={5} item>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
+                            <Grid lg={5} md={6} sm={12} xs={12} item>
                                 <Avatar className='circle-image' src='/pool/indoor-inspiration1.jpg' alt='indoor inspiration image' />
                             </Grid>
-                            <Grid md={5} item>
+                            <Grid lg={5} md={6} sm={12} xs={12} item>
                                 <Avatar className='circle-image' src='/pool/indoor-inspiration2.jpg' alt='indoor inspiration image' />
                             </Grid>
+                            <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
                             {/* <Grid md={5} item style={{ display: 'flex', alignItems: 'center' }}>
                                 <Typography variant='p' style={{ textAlign: 'left' }} className='site-text'>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
                                 </Typography>
                             </Grid> */}
-                            <Grid md={1} item></Grid>
+
                         </Grid>
                         <Typography variant='h2' className='site-sub-heading pt-40'>Gefällt dir, was du siehst? Jetzt informieren und ein Angebot erhalten! </Typography>
-                        <Typography style={{ width: '70%', margin: '0 auto' }} variant='p' className='site-text pt-20'>
+                        <Typography style={{ margin: '0 auto' }} variant='p' className='site-text pt-20 w-70'>
                             Träumst du schon davon, wie schön ein eigener Pool ist? Der erfolgreiche Poolbau beginnt mit einer <b>Beratung</b>. Erzähle uns von deinem Wunsch-Indoor-Pool.
                         </Typography>
                         {/* <Grid container spacing={3} style={{ flexDirection: 'row-reverse' }} >
