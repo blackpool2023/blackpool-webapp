@@ -9,6 +9,10 @@
     color: $color-white;
     text-align: center;
     padding: 40px 0;
+    @media (max-width: 460px) {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
 }
 .site-text {
     font-size: 16px !important;
@@ -286,6 +290,9 @@ video {
 .social-link.sticky-link {
     position: fixed;
     z-index: 11;
+    @media (max-width: 600px) {
+        display: none;
+    }
 }
 .center-md {
     @media (max-width: 900px) {
@@ -297,4 +304,19 @@ video {
     @media (max-width: 900px) {
         width: 100%;
     }
+}
+.ptm-0 {
+    @media (max-width: 900px) {
+       padding-top: 0;
+    }
+}
+.pbm-0 {
+    @media (max-width: 900px) {
+        padding-bottom: 0;
+     }
+}
+.md-none {
+    @media (max-width: 900px) {
+        display: none;
+     }
 }
