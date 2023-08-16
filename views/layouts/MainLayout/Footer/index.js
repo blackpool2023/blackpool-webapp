@@ -23,7 +23,7 @@ const NavBar = () => {
             <Box className="container-fluid">
                 <Box className="header-container">
                     <Grid container>
-                        <Grid md={1.5} item>
+                        <Grid lg={1.5} md={1.5} sm={12} xs={12} item className='none-1140'>
                             <Box className="site-logo">
                                 <Link href="/"
                                 // target="_blank" rel="noopener"
@@ -32,7 +32,7 @@ const NavBar = () => {
                                 </Link>
                             </Box>
                         </Grid>
-                        <Grid md={3.5} item>
+                        <Grid lg={3.5} md={3.5} sm={12} xs={12} item>
                             <Box className="site-menu">
                                 <List>
                                     {data.map((item) => (
@@ -43,7 +43,7 @@ const NavBar = () => {
                                 </List>
                             </Box>
                         </Grid>
-                        <Grid md={7} item>
+                        <Grid lg={7} md={7} sm={12} xs={12} item className='none-1140'>
                             <Box className="social-link">
                                 <Link href="#" className="hexagon">
                                     <FontAwesomeIcon icon="fa-brands fa-facebook-f" />

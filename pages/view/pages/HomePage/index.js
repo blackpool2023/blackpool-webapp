@@ -122,7 +122,7 @@ const HomePage = () => {
                                     <Typography variant='p' className='site-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Typography>
                                 </Grid>
                             </Grid> */}
-                        <Box className="about-main pool-facility pt-50">
+                        <Box className="about-main pool-facility pt-50 pbm-0">
                             {/* <Typography variant='h2' className='site-heading'>Über uns</Typography> */}
                             <Grid container spacing={3} >
                                 {/* <Grid md={2} item></Grid> */}
@@ -153,11 +153,11 @@ const HomePage = () => {
                                     </Typography>
                                     {/* </Box> */}
                                 </Grid>
-                                <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
+                                <Grid lg={1} md={12} sm={12} xs={12} item className='md-none'></Grid>
 
                                 <Grid container spacing={3} style={{ paddingTop: '30px' }}>
-                                    <Grid lg={2} md={1} sm={12} xs={12} item></Grid>
-                                    <Grid lg={8} md={10} sm={12} xs={12} item>
+                                    <Grid lg={2} md={1} sm={12} xs={12} item className="md-none"></Grid>
+                                    <Grid lg={8} md={10} sm={12} xs={12} item className="md-none">
                                         <Typography variant='p' className='site-text pt-10'>
                                             Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um <b>mit der Familie Zeit zu verbringen.</b> Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
                                         </Typography>
@@ -173,8 +173,8 @@ const HomePage = () => {
                                     </Grid>
                                     <Grid lg={2} md={1} sm={12} xs={12} item></Grid>
 
-                                    <Grid lg={2} md={1} sm={12} xs={12} item></Grid>
-                                    <Grid lg={8} md={10} sm={12} xs={12} item>
+                                    <Grid lg={2} md={1} sm={12} xs={12} item className='md-none'></Grid>
+                                    <Grid lg={8} md={10} sm={12} xs={12} item className='md-none'>
                                         <Typography variant='p' className='site-text'>
                                             Die Idee ist da. Seit einiger Zeit denkst du über dein Vorhaben nach und in deinem Kopf malst du dir bereits aus, wie du und deine Liebsten eine schöne Zeit am eigenen Pool verbringen. Du schwimmst entspannt deine Bahnen, während warme Sonnenstrahlen auf deine Haut treffen. Deine Kinder planschen, springen vom Beckenrand in deine Arme und spielen Wasserball. Es wird viel gelacht. Es ist wie Urlaub, nur ohne das nervige Gedrängel an den Touristenorten und die lange Anfahrt spart ihr euch ebenfalls.
                                         </Typography>
@@ -196,7 +196,7 @@ const HomePage = () => {
                 </Box>
                 <Box className="services-main bg-black">
                     <Box className="container">
-                        <Typography variant='h2' className='site-heading'>
+                        <Typography variant='h2' className='site-heading ptm-0 pbm-0'>
                             Das bekommst du von BlackPool, dem Poolbauer aus Hannover!
                         </Typography>
                         <Grid container spacing={3}>
@@ -240,7 +240,7 @@ const HomePage = () => {
                 {/* gallery */}
                 <Box className="bg-black">
                     <Box className="container">
-                        <Typography variant='h2' className='site-heading'>Pools, die Emotionen auslösen: Ein Einblick, wie es bei dir aussehen könnte</Typography>
+                        <Typography variant='h2' className='site-heading ptm-0'>Pools, die Emotionen auslösen: Ein Einblick, wie es bei dir aussehen könnte</Typography>
                         <Box className="lightbox-main">
                             <div ref={sliderRef} className="keen-slider">
                                 <div className="keen-slider__slide number-slide1">
@@ -320,7 +320,7 @@ const HomePage = () => {
                                 </Grid>
                             </Grid> */}
                         </Box>
-                        <Box className="pt-40 pb-50">
+                        <Box className="pt-40 pb-50 ptm-0">
                             <Grid container spacing={3}>
                                 <Grid md={2} item></Grid>
                                 <Grid md={8} item>
