@@ -16,6 +16,11 @@
 .footer-main {
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
     background: $black-color;
+    .none-1140 {
+        @media (max-width: 1140px) {
+            display: none !important;
+        }
+    }
     .contact-btn {
         .MuiListItem-root {
             border: 2px solid;
@@ -53,6 +58,9 @@
                 .MuiList-root {
                     display: flex;
                     padding: 0;
+                    @media (max-width: 900px) {
+                        display: block;
+                    }
                     .MuiListItem-root {
                         padding: 25px 25px 10px;
                         // &:hover {
@@ -68,6 +76,10 @@
                             text-decoration: none;
                             font-size: 16px;
                             text-transform: uppercase;
+                            @media (max-width: 900px) {
+                                width: 100%;
+                                text-align: center;
+                            }
                             &:after {
                                 background: none repeat scroll 0 0 transparent;
                                 bottom: 0;
