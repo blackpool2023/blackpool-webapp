@@ -167,14 +167,14 @@ const HomePage = () => {
                                         <Typography variant='p' className='site-text pt-10'>
                                             Mehr über BlackPool: <Link href='/pools' className='color-white' style={{ textDecoration: 'underline' }}>deine zukünftigen Poolprofis.</Link>
                                         </Typography>
-                                        <Typography variant='h2' style={{ textTransform: 'uppercase' }} className='site-text pt-20'>
+                                        <Typography variant='h2' style={{ textTransform: 'uppercase' }} className='color-white site-text pt-20'>
                                             Endlich ein eigener Pool für die ganze Familie
                                         </Typography>
                                     </Grid>
                                     <Grid lg={2} md={1} sm={12} xs={12} item></Grid>
 
                                     <Grid lg={2} md={1} sm={12} xs={12} item className='md-none'></Grid>
-                                    <Grid lg={8} md={10} sm={12} xs={12} item className='md-none'>
+                                    <Grid lg={8} md={10} sm={12} xs={12} item className='md-none' style={{ paddingTop: '0' }}>
                                         <Typography variant='p' className='site-text'>
                                             Die Idee ist da. Seit einiger Zeit denkst du über dein Vorhaben nach und in deinem Kopf malst du dir bereits aus, wie du und deine Liebsten eine schöne Zeit am eigenen Pool verbringen. Du schwimmst entspannt deine Bahnen, während warme Sonnenstrahlen auf deine Haut treffen. Deine Kinder planschen, springen vom Beckenrand in deine Arme und spielen Wasserball. Es wird viel gelacht. Es ist wie Urlaub, nur ohne das nervige Gedrängel an den Touristenorten und die lange Anfahrt spart ihr euch ebenfalls.
                                         </Typography>
@@ -327,13 +327,13 @@ const HomePage = () => {
                                     <Typography variant='p' className='site-text'>
                                         Noch mehr Inspirationen in unserer Galerie. Schaue nach, was die Poolbauer aus Hannover für dich bauen:   <Link href='/gallery' className='color-white' style={{ textDecoration: 'underline' }} >zur Galerie.</Link>
                                     </Typography>
-                                    <Typography variant='p' style={{ textTransform: 'uppercase' }} className='site-text'>
+                                    <Typography variant='p' style={{ textTransform: 'uppercase' }} className='color-white site-text pt-10'>
                                         Du willst dich und deine Familie glücklich machen?
                                     </Typography>
-                                    <Typography variant='p' className='site-text'>
+                                    <Typography variant='p' className='site-text pt-10'>
                                         Kaufe einen <b>hochwertigen Pool</b> direkt bei BlackPool. Das Fundament von unseren <b>Betonpool hält Jahrzehnte</b>, sodass vielleicht noch deine Enkelkinder in deinem Pool schwimmen lernen.
                                     </Typography>
-                                    <Typography variant='p' className='site-text'>
+                                    <Typography variant='p' className='site-text pt-10'>
                                         Bespreche unverbindlich die nächsten Schritte, um schon bald im eigenen Pool die warmen Sonnenstrahlen auf deiner Haut zu genießen. <b>Jetzt starten</b> und endlich zusammen mit einem Poolbauer aus Hannover mit der Umsetzung beginnen: Jetzt einen
                                         <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} > Beratungstermin vereinbaren.</Link>
                                     </Typography>

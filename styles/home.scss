@@ -147,7 +147,7 @@ video {
     min-width: 100%;
 }
 .slick-slider {
-    background: $black-color;
+    background: url('/assets/images/banner/vdobanner.png')$black-color;
     .slick-dots li.slick-active button:before {
         opacity: 0.75;
         color: $color-white;
@@ -256,7 +256,7 @@ video {
     padding-top: 10px;
 }
 .pt-0 {
-    padding-top: 0;;
+    padding-top: 0;
 }
 .site-sub-heading {
     color: $color-white;
