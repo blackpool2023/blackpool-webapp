@@ -23,7 +23,7 @@ const MainLayout = ({ children }) => {
         <>
             {isBaseRoot && isPlay ? (
                 <div style={{ background: 'black' }} >
-                    <video ref={videoRef} autoPlay muted loop style={{ height: '100vh' }} >
+                    <video ref={videoRef} autoPlay muted loop style={{ height: '100vh', width: '100vw' }} >
                         <source src='/assets/images/banner/nur-bp.mp4' />
                     </video>
                 </div>
