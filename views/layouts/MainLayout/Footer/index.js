@@ -16,6 +16,8 @@ const NavBar = () => {
         // { id: 5, name: "Network" },
         { id: 6, name: "About", href: 'aboutus' },
         { id: 7, name: "Contact", href: 'contact' },
+        { id: 8, name: "PrivacyPolicy", href: 'privacypolicy' },
+        { id: 9, name: "Imprint", href: 'imprint' },
     ]
     return (
         // <AppBar position="static">
@@ -23,7 +25,7 @@ const NavBar = () => {
             <Box className="container-fluid">
                 <Box className="header-container">
                     <Grid container>
-                        <Grid lg={1.5} md={1.5} sm={12} xs={12} item className='none-1140'>
+                        <Grid lg={1} md={1.5} sm={12} xs={12} item className='none-1140'>
                             <Box className="site-logo">
                                 <Link href="/"
                                 // target="_blank" rel="noopener"
@@ -32,7 +34,7 @@ const NavBar = () => {
                                 </Link>
                             </Box>
                         </Grid>
-                        <Grid lg={3.5} md={3.5} sm={12} xs={12} item>
+                        <Grid lg={4} md={3.5} sm={12} xs={12} item>
                             <Box className="site-menu">
                                 <List>
                                     {data.map((item) => (
