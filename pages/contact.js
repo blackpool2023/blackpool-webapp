@@ -79,7 +79,7 @@ const ContactUs = () => {
                         <Form className="w-50"
                             style={{
                                 margin: '0 auto',
-                                paddingTop: '60px'
+                                paddingTop: '25px'
                             }} >
                             <div style={formGroupStyle}>
                                 <label style={labelStyle} htmlFor="name">Vor - und Nachname*</label>

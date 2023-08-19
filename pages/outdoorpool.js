@@ -27,7 +27,7 @@ const OutdoorPools = () => {
                             <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/9.jpg'} alt='banner image' />
                         </Link> */}
                         <Link href="#">
-                            <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={images.gallery1} alt='banner image' />
+                            <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src='/assets/images/banner/outdoor-banner.jpg' alt='banner image' />
                         </Link>
                     </div>
                     {/* <div key={2}>
