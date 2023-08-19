@@ -157,7 +157,7 @@ const HomePage = () => {
 
                                 <Grid container spacing={3} style={{ paddingTop: '30px' }}>
                                     <Grid lg={2} md={1} sm={12} xs={12} item className="md-none"></Grid>
-                                    <Grid lg={8} md={10} sm={12} xs={12} item className="md-none">
+                                    <Grid lg={8} md={10} sm={12} xs={12} item>
                                         <Typography variant='p' className='site-text pt-10'>
                                             Ein eigener Pool ist ein idealer Ort für Grillabende mit Freunden oder um <b>mit der Familie Zeit zu verbringen.</b> Es ist eine kleine Oase an denen du dich erholst, entspannst, Erinnerungen an eine angenehme Zeit mit deinen Kindern schaffst oder deinen Körper mit Schwimmbewegungen etwas Gutes tust.
                                         </Typography>
@@ -167,14 +167,14 @@ const HomePage = () => {
                                         <Typography variant='p' className='site-text pt-10'>
                                             Mehr über BlackPool: <Link href='/pools' className='color-white' style={{ textDecoration: 'underline' }}>deine zukünftigen Poolprofis.</Link>
                                         </Typography>
-                                        <Typography variant='h2' style={{ textTransform: 'uppercase' }} className='color-white site-text pt-20'>
+                                        <Typography variant='h2' style={{ textTransform: 'uppercase' }} className='color-white site-text pt-20 pb-10'>
                                             Endlich ein eigener Pool für die ganze Familie
                                         </Typography>
                                     </Grid>
                                     <Grid lg={2} md={1} sm={12} xs={12} item></Grid>
 
                                     <Grid lg={2} md={1} sm={12} xs={12} item className='md-none'></Grid>
-                                    <Grid lg={8} md={10} sm={12} xs={12} item className='md-none' style={{ paddingTop: '0' }}>
+                                    <Grid lg={8} md={10} sm={12} xs={12} item style={{ paddingTop: '0' }}>
                                         <Typography variant='p' className='site-text'>
                                             Die Idee ist da. Seit einiger Zeit denkst du über dein Vorhaben nach und in deinem Kopf malst du dir bereits aus, wie du und deine Liebsten eine schöne Zeit am eigenen Pool verbringen. Du schwimmst entspannt deine Bahnen, während warme Sonnenstrahlen auf deine Haut treffen. Deine Kinder planschen, springen vom Beckenrand in deine Arme und spielen Wasserball. Es wird viel gelacht. Es ist wie Urlaub, nur ohne das nervige Gedrängel an den Touristenorten und die lange Anfahrt spart ihr euch ebenfalls.
                                         </Typography>
@@ -247,13 +247,16 @@ const HomePage = () => {
                                     <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src={images.gallery1} alt='gallery image' />
                                 </div>
                                 <div className="keen-slider__slide number-slide2">
-                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src={images.gallery2} alt='gallery image' />
+                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src='/pool/indoor-inspiration1.jpg' alt='gallery image' />
                                 </div>
                                 <div className="keen-slider__slide number-slide3">
-                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src={images.gallery3} alt='gallery image' />
+                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src='/pool/indoor-inspiration2.jpg' alt='gallery image' />
                                 </div>
                                 <div className="keen-slider__slide number-slide4">
-                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src={images.gallery4} alt='gallery image' />
+                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src='/pool/outdoor-inspiration1.png' alt='gallery image' />
+                                </div>
+                                <div className="keen-slider__slide number-slide4">
+                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src='/pool/outdoor-inspiration2.jpg' alt='gallery image' />
                                 </div>
                             </div>
 
@@ -261,14 +264,17 @@ const HomePage = () => {
                                 <div className="keen-slider__slide number-slide1">
                                     <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src={images.gallery1} alt='gallery image' />
                                 </div>
-                                <div className="keen-slider__slide number-slide2">
-                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src={images.gallery2} alt='gallery image' />
+                                <div className="keen-slider__slide number-slide1">
+                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src='/pool/indoor-inspiration1.jpg' alt='gallery image' />
                                 </div>
-                                <div className="keen-slider__slide number-slide3">
-                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src={images.gallery3} alt='gallery image' />
+                                <div className="keen-slider__slide number-slide2">
+                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src='/pool/indoor-inspiration2.jpg' alt='gallery image' />
                                 </div>
                                 <div className="keen-slider__slide number-slide4">
-                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src={images.gallery4} alt='gallery image' />
+                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src='/pool/outdoor-inspiration1.png' alt='gallery image' />
+                                </div>
+                                <div className="keen-slider__slide number-slide4">
+                                    <Avatar style={{ width: '100%', height: '600px', borderRadius: '0' }} src='/pool/outdoor-inspiration2.jpg' alt='gallery image' />
                                 </div>
                             </div>
                             {/* <Grid container spacing={3}>

@@ -51,14 +51,14 @@ const CarouselSlider = () => {
         <Slider {...settings}>
             <div key={1} >
                 <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>LISTEN TO YOUR BODY</span></Typography>
+                    <Typography variant='h1'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
                     {/* <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography> */}
                 </Box>
                 <video ref={videosRef} autoPlay muted loop style={{
                     minHeight: '600px',
                     width: '100vw',
                 }} >
-                    <source src='/assets/images/banner/slidervdo2.mp4' />
+                    <source src='/assets/images/banner/slidervdo3.mp4' />
                 </video>
             </div>
             <div key={2}>
@@ -78,7 +78,7 @@ const CarouselSlider = () => {
             <div key={3}>
                 {/* <Link href="#"> */}
                 <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
+                    <Typography variant='h1'><span className='fw-800'>MEET YOURSELF</span></Typography>
                     {/* <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography> */}
                 </Box>
                 <video ref={videoReference} autoPlay muted loop style={{
@@ -86,7 +86,7 @@ const CarouselSlider = () => {
                     width: '100vw',
                     // height: 'auto'
                 }}>
-                    <source src='/assets/images/banner/slidervdo3.mp4' />
+                    <source src='/assets/images/banner/slidervdo2.mp4' />
                 </video>
                 {/* </Link> */}
             </div>

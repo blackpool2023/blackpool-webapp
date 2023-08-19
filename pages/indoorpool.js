@@ -24,7 +24,7 @@ const IndoorPool = () => {
                 <Slider {...settings}>
                     <div key={1}>
                         <Link href="#">
-                            <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={images.gallery1} alt='banner image' />
+                            <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src='/assets/images/banner/pool-banner.jpg' alt='banner image' />
                         </Link>
                         {/* <Link href="#">
                             <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/9.jpg'} alt='banner image' />
