@@ -16,8 +16,8 @@ const NavBar = () => {
         // { id: 5, name: "Network" },
         { id: 6, name: "About", href: 'aboutus' },
         { id: 7, name: "Contact", href: 'contact' },
-        { id: 8, name: "PrivacyPolicy", href: 'privacypolicy' },
-        { id: 9, name: "Imprint", href: 'imprint' },
+        { id: 8, name: "Datenschutz", href: 'privacypolicy' },
+        { id: 9, name: "Impressum", href: 'imprint' },
     ]
     return (
         // <AppBar position="static">

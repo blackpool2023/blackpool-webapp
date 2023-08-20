@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
             <Helmet title='Privacy & Policy - Blackpool' description='' />
             <Box className='contact-main'>
                 <Box className="contact-banner">
-                    <Typography variant='h2'>Privacy Policy</Typography>
+                    <Typography variant='h2'>Datenschutz</Typography>
                 </Box>
             </Box>
             <Box className="bg-black">
