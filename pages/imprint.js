@@ -39,7 +39,7 @@ const Imprint = () => {
                             <Typography variant='p' className='text-left site-text pt-20 color-white'>
                                 Vertreten durch:
                             </Typography>
-                            <Typography variant='p' className='text-left site-text pt-10'>Elvis Gbenado8</Typography>
+                            <Typography variant='p' className='text-left site-text pt-10'>Elvis Gbenado</Typography>
 
                             <Typography variant='p' className='text-left site-text pt-20 color-white'>
                                 Eingetragen am
