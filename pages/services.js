@@ -25,10 +25,10 @@ const Services = () => {
                 <Slider {...settings}>
                     <div key={1}>
                         <Link href="#">
-                            <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/9.jpg'} alt='banner image' />
+                            <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/wartung-banner.png'} alt='banner image' />
                         </Link>
                     </div>
-                    <div key={2}>
+                    {/* <div key={2}>
                         <Link href="#">
                             <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/10.jpg'} alt='banner image' />
                         </Link>
@@ -42,7 +42,7 @@ const Services = () => {
                         <Link href="#">
                             <Avatar style={{ width: '100%', height: '650px', borderRadius: '0' }} src={'/pool/24.jpg'} alt='banner image' />
                         </Link>
-                    </div>
+                    </div> */}
                 </Slider>
 
                 {/* <Typography variant='h2'>Pools</Typography> */}
