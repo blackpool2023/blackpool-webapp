@@ -27,7 +27,7 @@ const AboutUs = () => {
                         <Grid container spacing={3} style={{ paddingTop: '0px' }}>
                             <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
                             <Grid lg={5} md={6} sm={12} xs={12} item>
-                                <Avatar className='circle-image' src={images.gallery2} alt='gallery image' />
+                                <Avatar className='circle-image' src='/assets/images/banner/about-usimage.png' alt='gallery image' />
                             </Grid>
                             <Grid lg={5} md={6} sm={12} xs={12} item style={{ display: 'flex', alignItems: 'center' }}>
                                 <Typography variant='p' className='text-left site-text center-md'>
