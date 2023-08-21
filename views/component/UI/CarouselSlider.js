@@ -12,7 +12,7 @@ const CarouselSlider = () => {
     const videoReference = useRef(null);
     useEffect(() => {
         // Once the component mounts, start playing the video
-        videoReference.current.play(); videoRef.current.play(); videosRef.current.play();
+        videosRef.current.play(); videoReference.current.play(); videoRef.current.play();
     }, []);
 
     const settings = {
