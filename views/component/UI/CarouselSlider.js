@@ -56,7 +56,7 @@ const CarouselSlider = () => {
                 </Box>
                 <video
                     className="slider-video"
-                    src='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
+                    src='/assets/images/banner/slidervdo3.mp4'
                     loop
                     autoPlay
                     muted
