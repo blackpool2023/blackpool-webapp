@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
                                 Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
                             </Typography>
                             <Typography variant='p' className='text-left site-text pt-10'>
-                                BlackPool e. K
+                                BlackPool e. K.
                             </Typography>
                             <Typography variant='p' className='text-left site-text'>
                                 Geibelplatz 1
