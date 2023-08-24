@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import StarIcon from '@mui/icons-material/Star';
-import { images } from 'views/helpers/constants/ImageConstant';
+// import { images } from 'views/helpers/constants/ImageConstant';
 import Helmet from "views/component/UI/Helmet"
 
 const Services = () => {
@@ -141,7 +141,7 @@ const Services = () => {
                         <Grid container spacing={3}>
                             <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
                             <Grid lg={5} md={6} sm={12} xs={12} item>
-                                <Avatar className='circle-image' src={images.careMaintanance} alt='gallery image' />
+                                <Avatar className='circle-image' src='/assets/images/banner/about-usimage.png' alt='gallery image' />
                             </Grid>
                             <Grid lg={5} md={6} sm={12} xs={12} item style={{ display: 'flex', alignItems: 'center' }}>
                                 <Box>
