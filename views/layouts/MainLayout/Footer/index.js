@@ -53,7 +53,7 @@ const NavBar = () => {
                                 <Link href="https://www.instagram.com/blackpool_hannover/" target="_blank" className="hexagon">
                                     <InstagramIcon />
                                 </Link>
-                                <Link href="#" className="hexagon">
+                                <Link href="mailto:info@blackpool-hannover.de" className="hexagon">
                                     <PermContactCalendarIcon />
                                 </Link>
                             </Box>
