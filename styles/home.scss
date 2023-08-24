@@ -135,7 +135,7 @@
     display: flex;
     justify-content: center;
 }
-video {
+video { 
     width: 100%;
     min-height: 100%;
     width: auto;
@@ -145,6 +145,13 @@ video {
     background-position: center;
     position: relative;
     min-width: 100%;
+}
+.slider-video {
+    @media (max-width: 1000px) {
+        min-height: 100vh !important;
+        width: auto !important;
+        height: 100vh !important;
+    }
 }
 .slick-slider {
     background: $black-color;
