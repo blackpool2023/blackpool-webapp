@@ -49,7 +49,31 @@ const CarouselSlider = () => {
 
     return (
         <Slider {...settings}>
-            <div key={1}>
+            <div key={1} >
+                <Box className="slide-heading">
+                    <Typography variant='h1'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
+                    {/* <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography> */}
+                </Box>
+                {/* <video
+                    className="slider-video"
+                    src='/assets/images/banner/slidervdo3.mp4'
+                    loop
+                    autoPlay
+                    muted
+                    loading="lazy"
+                    style={{
+                        minHeight: '600px',
+                        width: '100vw',
+                    }}
+                ></video> */}
+                <video className="slider-video" ref={videosRef} autoPlay muted loop style={{
+                    minHeight: '600px',
+                    width: '100vw',
+                }} >
+                    <source src='/assets/images/banner/slidervdo3.mp4' />
+                </video>
+            </div>
+            <div key={2}>
                 {/* <Link href="#"> */}
                 <Box className="slide-heading">
                     <Typography variant='h1'><span className='fw-800'>MEET YOURSELF</span></Typography>
@@ -74,30 +98,6 @@ const CarouselSlider = () => {
                     }}
                 ></video> */}
                 {/* </Link> */}
-            </div>
-            <div key={2} >
-                <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
-                    {/* <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography> */}
-                </Box>
-                {/* <video
-                    className="slider-video"
-                    src='/assets/images/banner/slidervdo3.mp4'
-                    loop
-                    autoPlay
-                    muted
-                    loading="lazy"
-                    style={{
-                        minHeight: '600px',
-                        width: '100vw',
-                    }}
-                ></video> */}
-                <video className="slider-video" ref={videosRef} autoPlay muted loop style={{
-                    minHeight: '600px',
-                    width: '100vw',
-                }} >
-                    <source src='/assets/images/banner/slidervdo3.mp4' />
-                </video>
             </div>
             {/* <div key={2}> */}
             {/* <Link href="#"> */}
