@@ -337,3 +337,23 @@ video {
 .pb-10 {
     padding-bottom: 10px;
 }
+.CookieConsent {
+    display: block !important;
+    width: 45% !important;
+    right: 15px;
+    left: auto !important;
+    padding: 17px;
+    @media (max-width: 900px) {
+        width: 100% !important;
+        right: 0;
+     }
+}
+.fw-200 {
+    font-weight: 200 !important;
+}
+.fancy-check {
+    span {
+        font-weight: 200;
+        font-family: 'Mulish', sans-serif;
+    }
+} 

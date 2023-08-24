@@ -55,7 +55,7 @@ const CarouselSlider = () => {
                     <Typography variant='h1'><span className='fw-800'>MEET YOURSELF</span></Typography>
                     {/* <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography> */}
                 </Box>
-                <video ref={videoRef} autoPlay muted loop style={{
+                <video className="slider-video" ref={videoRef} autoPlay muted loop style={{
                     minHeight: '600px',
                     width: '100vw',
                 }} >
@@ -92,7 +92,7 @@ const CarouselSlider = () => {
                         width: '100vw',
                     }}
                 ></video> */}
-                <video ref={videosRef} autoPlay muted loop style={{
+                <video className="slider-video" ref={videosRef} autoPlay muted loop style={{
                     minHeight: '600px',
                     width: '100vw',
                 }} >
