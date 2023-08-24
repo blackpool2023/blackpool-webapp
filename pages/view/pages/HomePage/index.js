@@ -98,7 +98,7 @@ const HomePage = () => {
                     <Link href="https://www.instagram.com/blackpool_hannover/" target="_blank" className="hexagon">
                         <InstagramIcon />
                     </Link>
-                    <Link href="#" className="hexagon">
+                    <Link href="mailto:jahanvi.jnext@gmail.com" className="hexagon">
                         <PermContactCalendarIcon />
                     </Link>
                 </Box>
