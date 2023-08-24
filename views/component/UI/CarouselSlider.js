@@ -49,7 +49,27 @@ const CarouselSlider = () => {
 
     return (
         <Slider {...settings}>
-            <div key={1} >
+            <div key={1}>
+                {/* <Link href="#"> */}
+                <Box className="slide-heading">
+                    <Typography variant='h1'><span className='fw-800'>MEET YOURSELF</span></Typography>
+                    {/* <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography> */}
+                </Box>
+                <video
+                    className="slider-video"
+                    src='/assets/images/banner/slidervdo2.mp4'
+                    loop
+                    autoPlay
+                    muted
+                    loading="lazy"
+                    style={{
+                        minHeight: '600px',
+                        width: '100vw',
+                    }}
+                ></video>
+                {/* </Link> */}
+            </div>
+            <div key={2} >
                 <Box className="slide-heading">
                     <Typography variant='h1'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
                     {/* <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography> */}
@@ -73,13 +93,13 @@ const CarouselSlider = () => {
                     <source src='/assets/images/banner/slidervdo3.mp4' />
                 </video> */}
             </div>
-            <div key={2}>
-                {/* <Link href="#"> */}
-                <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>WATER IS LIFE</span></Typography>
-                    {/* <Typography variant='h1'><span className='fw-800'>WATER</span> <span>WATER IS LIFE</span></Typography> */}
-                </Box>
-                <video
+            {/* <div key={2}> */}
+            {/* <Link href="#"> */}
+            {/* <Box className="slide-heading">
+                    <Typography variant='h1'><span className='fw-800'>WATER IS LIFE</span></Typography> */}
+            {/* <Typography variant='h1'><span className='fw-800'>WATER</span> <span>WATER IS LIFE</span></Typography> */}
+            {/* </Box> */}
+            {/* <video
                     className="slider-video"
                     src='/assets/images/banner/slidervdo1.mp4'
                     loop
@@ -90,29 +110,10 @@ const CarouselSlider = () => {
                         minHeight: '600px',
                         width: '100vw',
                     }}
-                ></video>
-                {/* </Link> */}
-            </div>
-            <div key={3}>
-                {/* <Link href="#"> */}
-                <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>MEET YOURSELF</span></Typography>
-                    {/* <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography> */}
-                </Box>
-                <video
-                    className="slider-video"
-                    src='/assets/images/banner/slidervdo2.mp4'
-                    loop
-                    autoPlay
-                    muted
-                    loading="lazy"
-                    style={{
-                        minHeight: '600px',
-                        width: '100vw',
-                    }}
-                ></video>
-                {/* </Link> */}
-            </div>
+                ></video> */}
+            {/* </Link> */}
+            {/* </div> */}
+
         </Slider>
     );
 };

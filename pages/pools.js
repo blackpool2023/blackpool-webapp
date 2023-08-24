@@ -108,7 +108,7 @@ const Pools = () => {
                         <Grid container spacing={3}>
                             <Grid lg={1} md={12} sm={12} xs={12} item></Grid>
                             <Grid lg={5} md={6} sm={12} xs={12} item>
-                                <Avatar className='circle-image' src={images.careMaintanance} alt='gallery image' />
+                                <Avatar className='circle-image' src='/assets/images/banner/about-usimage.png' alt='gallery image' />
                             </Grid>
                             <Grid lg={5} md={6} sm={12} xs={12} item style={{ display: 'flex', alignItems: 'center' }}>
                                 <Box>
@@ -128,7 +128,9 @@ const Pools = () => {
                         <Typography variant='p' className='site-text pt-10'>
                             Nimm mit uns Kontakt auf, lasse dich fachkundig beraten und erfahre die nächsten Schritte des Poolbaus in Hannover und ganz Niedersachsen.
                             <Typography variant='p' className='site-text pt-10'>
-                                <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }}>Pool anfragen </Link>
+                                <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }}>
+                                    Pool anfragen
+                                </Link>
                             </Typography>
                         </Typography>
                         {/* <Grid container spacing={3} style={{ flexDirection: 'row-reverse' }} className='mt-40' >
