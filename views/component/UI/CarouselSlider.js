@@ -7,13 +7,13 @@ import "slick-carousel/slick/slick-theme.css";
 import { Box, Typography } from '@mui/material';
 
 const CarouselSlider = () => {
-    // const videoRef = useRef(null);
-    // const videosRef = useRef(null);
+    const videoRef = useRef(null);
+    const videosRef = useRef(null);
     // const videoReference = useRef(null);
-    // useEffect(() => {
-    //     // Once the component mounts, start playing the video
-    //     videosRef.current.play(); videoReference.current.play(); videoRef.current.play();
-    // }, []);
+    useEffect(() => {
+        // Once the component mounts, start playing the video
+        videoRef.current.play(); videosRef.current.play();
+    }, []);
 
     const settings = {
         dots: true,
@@ -55,7 +55,13 @@ const CarouselSlider = () => {
                     <Typography variant='h1'><span className='fw-800'>MEET YOURSELF</span></Typography>
                     {/* <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography> */}
                 </Box>
-                <video
+                <video ref={videoRef} autoPlay muted loop style={{
+                    minHeight: '600px',
+                    width: '100vw',
+                }} >
+                    <source src='/assets/images/banner/slidervdo2.mp4' />
+                </video>
+                {/* <video
                     className="slider-video"
                     src='/assets/images/banner/slidervdo2.mp4'
                     loop
@@ -66,7 +72,7 @@ const CarouselSlider = () => {
                         minHeight: '600px',
                         width: '100vw',
                     }}
-                ></video>
+                ></video> */}
                 {/* </Link> */}
             </div>
             <div key={2} >
@@ -74,7 +80,7 @@ const CarouselSlider = () => {
                     <Typography variant='h1'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
                     {/* <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography> */}
                 </Box>
-                <video
+                {/* <video
                     className="slider-video"
                     src='/assets/images/banner/slidervdo3.mp4'
                     loop
@@ -85,13 +91,13 @@ const CarouselSlider = () => {
                         minHeight: '600px',
                         width: '100vw',
                     }}
-                ></video>
-                {/* <video ref={videosRef} autoPlay muted loop style={{
+                ></video> */}
+                <video ref={videosRef} autoPlay muted loop style={{
                     minHeight: '600px',
                     width: '100vw',
                 }} >
                     <source src='/assets/images/banner/slidervdo3.mp4' />
-                </video> */}
+                </video>
             </div>
             {/* <div key={2}> */}
             {/* <Link href="#"> */}
