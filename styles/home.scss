@@ -154,8 +154,8 @@ video {
     }
 }
 .slick-slider {
-    background: $black-color;
-    // background: url('/assets/images/banner/vdobanner.png')$black-color;
+    // background: $black-color;
+    background: url('/assets/images/banner/vdobanner.png')$black-color;
     .slick-dots li.slick-active button:before {
         opacity: 0.75;
         color: $color-white;
