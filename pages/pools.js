@@ -116,7 +116,7 @@ const Pools = () => {
                                         „Hey, ich bin Elvis und Gründer von BlackPool. Mit einem „Poolbau auf Augenhöhe“ planen und bauen wir deinen Pool. Wir hören dir zu, wir erfahren deine Wünsche und gestalten deinen einzigartigen Pool, der dich begeistert.“
                                     </Typography>
                                     <Typography variant='p' className='text-left site-text pt-10 center-md'>
-                                        Erfahre mehr über uns: <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }} >die Poolbauer</Link>
+                                        Erfahre mehr über uns: <Link href='/Wartung' className='color-white' style={{ textDecoration: 'underline' }} >die Poolbauer</Link>
                                     </Typography>
                                 </Box>
                             </Grid>
@@ -128,7 +128,7 @@ const Pools = () => {
                         <Typography variant='p' className='site-text pt-10'>
                             Nimm mit uns Kontakt auf, lasse dich fachkundig beraten und erfahre die nächsten Schritte des Poolbaus in Hannover und ganz Niedersachsen.
                             <Typography variant='p' className='site-text pt-10'>
-                                <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }}>
+                                <Link href='/Wartung' className='color-white' style={{ textDecoration: 'underline' }}>
                                     Pool anfragen
                                 </Link>
                             </Typography>

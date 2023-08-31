@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }) {
             Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.
           </Typography>
           <FormGroup>
-            <FormControlLabel className='fancy-check' control={<Checkbox size="small" onClick={() => setChecked(true)} />} label="Notwendige Cookies" />
+            <FormControlLabel className='fancy-check' control={<Checkbox size="small" onClick={() => setChecked(true)} />} label="Nur Notwendige Cookies" />
             <FormControlLabel className='fancy-check' control={<Checkbox size="small" onClick={() => setChecked(true)} />} label="Besucherstatistiken" />
           </FormGroup>
         </div>
