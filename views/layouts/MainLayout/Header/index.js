@@ -49,7 +49,7 @@ const Header = () => {
     const data = [
         { id: 1, name: "Home", href: '/' },
         // { id: 2, name: "Pools", href: 'pools' },
-        { id: 3, name: "Wartung", href: 'services' },
+        { id: 3, name: "Wartung", href: 'Wartung' },
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
         // { id: 6, name: "Gallery", href: 'gallery' },
@@ -88,10 +88,10 @@ const Header = () => {
                                     aria-expanded={openI ? 'true' : undefined}
                                     onClick={handleClicked}
                                 >
-                                    <Link>Pools</Link>
+                                    <Link>Poolbau</Link>
                                 </ListItem>
                                 <ListItem key={2}>
-                                    <Link href='services'> Wartung</Link>
+                                    <Link href='Wartung'> Wartung</Link>
                                 </ListItem>
                                 <ListItem
                                     id="basic-button"
@@ -103,7 +103,7 @@ const Header = () => {
                                     <Link>About</Link>
                                 </ListItem>
                                 <ListItem key={3}>
-                                    <Link href='contact'> Contact </Link>
+                                    <Link href='contact'> Kontakt </Link>
                                 </ListItem>
                             </List>
                         </Box>

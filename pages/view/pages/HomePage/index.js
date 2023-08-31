@@ -6,6 +6,7 @@ import { images } from 'views/helpers/constants/ImageConstant';
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import CarouselSlider from 'views/component/UI/CarouselSlider';
+import Image from 'next/image';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 // import MiscellaneousServicesSharpIcon from '@mui/icons-material/MiscellaneousServicesSharp';
 import FontAwesomeIcon from '@mui/icons-material/FacebookSharp';
@@ -346,6 +347,18 @@ const HomePage = () => {
                                 </Grid>
                                 <Grid md={2} item></Grid>
                             </Grid>
+                        </Box>
+                        <Box>
+                            <Box className="site-logo-source" style={{ width: '70%', margin: '0 auto' }}>
+                                {/* <Link href="/" */}
+                                {/* // target="_blank" rel="noopener"
+                                > */}
+                                <Image src={images.logo} alt="logo" height={100} width={100} style={{ width: 'auto' }} />
+                                {/* </Link> */}
+                                <Typography variant='p' className='site-text pt-10 text-left'>
+                                    ©Johnce/www.istockphoto.com © Mihtiander/www.istockphoto.com
+                                </Typography>
+                            </Box>
                         </Box>
                     </Box>
                 </Box>

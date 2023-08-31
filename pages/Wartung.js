@@ -19,7 +19,7 @@ const Services = () => {
         autoplaySpeed: 1800,
     };
     return (<>
-        <Helmet title='Services - Blackpool' description='Pool warten lassen ✓ Fachkundige Poolwartung von Betonpools ✓ In Hannover & in ganz Niedersachsen → Jetzt Pool-Service anfragen!' />
+        <Helmet title='Wartung - Blackpool' description='Pool warten lassen ✓ Fachkundige Poolwartung von Betonpools ✓ In Hannover & in ganz Niedersachsen → Jetzt Pool-Service anfragen!' />
         <Box className='pools-main'>
             <Box className="pool-banner">
                 <Slider {...settings}>
@@ -48,7 +48,7 @@ const Services = () => {
                 {/* <Typography variant='h2'>Pools</Typography> */}
             </Box>
             <Box className="bg-black">
-                <Typography variant='h1' className='site-heading'>Poolwartung – Pool-Service in Hannover & um zu beauftragen</Typography>
+                <Typography variant='h1' className='site-heading'>Poolwartung – Pool-Service in Hannover</Typography>
                 <Box className="container">
                     {/* about */}
                     <Box className="w-70" style={{ margin: '0 auto' }}>
@@ -152,7 +152,7 @@ const Services = () => {
                                         Es sind moderne Betonpools, die der Umwelt zuliebe lange halten und auch noch richtig gut aussehen. Damit die sorgfältig ausgewählte Technik jahrelang funktioniert, übernehmen wir mit unserem Pool-Service deine Poolwartung.“
                                     </Typography>
                                     <Typography variant='p' className='text-left site-text pt-10 center-md'>
-                                        Hier mehr über uns lesen: <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }} >mehr über uns.</Link>
+                                        Hier mehr über uns lesen: <Link href='/Wartung' className='color-white' style={{ textDecoration: 'underline' }} >mehr über uns.</Link>
                                     </Typography>
                                 </Box>
                             </Grid>
@@ -165,7 +165,7 @@ const Services = () => {
                             Sage uns, wo dein Pool in Hannover oder Niedersachsen steht, wir kommen vorbei und übernehmen mit dem Pool-Service die Poolwartung. Lasse uns deinen Pool warten, damit hygienische Bedingungen vorliegen, die Technik funktioniert und du bequem am Pool liegen kannst, statt ihn auseinanderzubauen.
                             <Typography variant='p' className='site-text pt-10'>
                                 Hier nach einem freien Termin fragen:
-                                <Link href='/services' className='color-white' style={{ textDecoration: 'underline' }}>
+                                <Link href='/Wartung' className='color-white' style={{ textDecoration: 'underline' }}>
                                     Termin vereinbaren.
                                 </Link>
                             </Typography>
