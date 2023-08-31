@@ -357,3 +357,14 @@ video {
         font-family: 'Mulish', sans-serif;
     }
 } 
+.site-logo-source {
+    width: '70%';
+    margin: '0 auto';
+    border-top: 1px solid $color-white;
+    padding: 35px 0;
+    img {
+        height: 80px;
+        width: 90px;
+    }
+   
+}

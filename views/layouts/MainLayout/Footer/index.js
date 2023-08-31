@@ -10,14 +10,14 @@ const NavBar = () => {
 
     const data = [
         { id: 1, name: "Home", href: '/' },
-        { id: 2, name: "Pools", href: 'pools' },
-        { id: 3, name: "Wartung", href: 'services' },
+        { id: 2, name: "Poolbau", href: 'pools' },
+        { id: 3, name: "Wartung", href: 'Wartung' },
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
         { id: 6, name: "About", href: 'aboutus' },
-        { id: 7, name: "Contact", href: 'contact' },
-        { id: 8, name: "Datenschutz", href: 'privacypolicy' },
-        { id: 9, name: "Impressum", href: 'imprint' },
+        { id: 7, name: "Kontakt", href: 'contact' },
+        { id: 8, name: "Datenschutz", href: 'Datenschutzerklarung' },
+        { id: 9, name: "Impressum", href: 'Impressum' },
     ]
     return (
         // <AppBar position="static">

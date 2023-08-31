@@ -4,7 +4,7 @@ import StarIcon from '@mui/icons-material/Star';
 import Helmet from "views/component/UI/Helmet";
 // import { images } from 'views/helpers/constants/ImageConstant';
 
-const PrivacyPolicy = () => {
+const Datenschutzerklarung = () => {
 
     return (
         <>
@@ -518,4 +518,4 @@ const PrivacyPolicy = () => {
         </>
     );
 };
-export default PrivacyPolicy;
+export default Datenschutzerklarung;
