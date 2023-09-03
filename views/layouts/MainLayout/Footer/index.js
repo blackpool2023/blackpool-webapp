@@ -15,8 +15,8 @@ const NavBar = () => {
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
         { id: 6, name: "About", href: 'aboutus' },
-        { id: 7, name: "Kontakt", href: 'contact' },
-        { id: 8, name: "Datenschutz", href: 'Datenschutzerklarung' },
+        { id: 7, name: "Kontakt", href: 'kontakt' },
+        { id: 8, name: "Datenschutz", href: 'Datenschutzerklaerung' },
         { id: 9, name: "Impressum", href: 'Impressum' },
     ]
     return (

@@ -118,7 +118,7 @@ const AboutUs = () => {
                         Erzähle uns, wie dein Traumpool aussieht
                     </Typography>
                     <Typography variant='p' className='site-text pt-10'>
-                        Starte jetzt, damit du nicht mehr viele Kilometer bis zum Wasser fahren musst. Wir beraten dich persönlich. Hier vereinbarst du einen <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} >Beratungstermin</Link>
+                        Starte jetzt, damit du nicht mehr viele Kilometer bis zum Wasser fahren musst. Wir beraten dich persönlich. Hier vereinbarst du einen <Link href='/kontakt' className='color-white' style={{ textDecoration: 'underline' }} >Beratungstermin</Link>
                     </Typography>
                 </Box>
                 {/* <Box className="about-banner"></Box> */}

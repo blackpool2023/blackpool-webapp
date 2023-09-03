@@ -53,7 +53,7 @@ const Header = () => {
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
         // { id: 6, name: "Gallery", href: 'gallery' },
-        { id: 7, name: "Contact", href: 'contact' },
+        { id: 7, name: "Contact", href: 'kontakt' },
     ]
     return (
         <AppBar position="static">
@@ -103,7 +103,7 @@ const Header = () => {
                                     <Link>About</Link>
                                 </ListItem>
                                 <ListItem key={3}>
-                                    <Link href='contact'> Kontakt </Link>
+                                    <Link href='kontakt'> Kontakt </Link>
                                 </ListItem>
                             </List>
                         </Box>

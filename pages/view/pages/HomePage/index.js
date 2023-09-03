@@ -342,7 +342,7 @@ const HomePage = () => {
                                     </Typography>
                                     <Typography variant='p' className='site-text pt-10'>
                                         Bespreche unverbindlich die nächsten Schritte, um schon bald im eigenen Pool die warmen Sonnenstrahlen auf deiner Haut zu genießen. <b>Jetzt starten</b> und endlich zusammen mit einem Poolbauer aus Hannover mit der Umsetzung beginnen: Jetzt einen
-                                        <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} > Beratungstermin vereinbaren.</Link>
+                                        <Link href='/kontakt' className='color-white' style={{ textDecoration: 'underline' }} > Beratungstermin vereinbaren.</Link>
                                     </Typography>
                                 </Grid>
                                 <Grid md={2} item></Grid>
