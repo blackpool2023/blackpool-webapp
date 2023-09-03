@@ -9,7 +9,7 @@ import CarouselSlider from 'views/component/UI/CarouselSlider';
 import Image from 'next/image';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 // import MiscellaneousServicesSharpIcon from '@mui/icons-material/MiscellaneousServicesSharp';
-import FontAwesomeIcon from '@mui/icons-material/FacebookSharp';
+// import FontAwesomeIcon from '@mui/icons-material/FacebookSharp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
 
@@ -93,9 +93,9 @@ const HomePage = () => {
                     <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography>
                 </Box> */}
                 <Box className={`social-link ${showButton ? 'sticky-link' : ''}`}>
-                    <Link href="#" className="hexagon">
+                    {/* <Link href="#" className="hexagon">
                         <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
-                    </Link>
+                    </Link> */}
                     <Link href="https://www.instagram.com/blackpool_hannover/" target="_blank" className="hexagon">
                         <InstagramIcon />
                     </Link>
@@ -342,7 +342,7 @@ const HomePage = () => {
                                     </Typography>
                                     <Typography variant='p' className='site-text pt-10'>
                                         Bespreche unverbindlich die nächsten Schritte, um schon bald im eigenen Pool die warmen Sonnenstrahlen auf deiner Haut zu genießen. <b>Jetzt starten</b> und endlich zusammen mit einem Poolbauer aus Hannover mit der Umsetzung beginnen: Jetzt einen
-                                        <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} > Beratungstermin vereinbaren.</Link>
+                                        <Link href='/kontakt' className='color-white' style={{ textDecoration: 'underline' }} > Beratungstermin vereinbaren.</Link>
                                     </Typography>
                                 </Grid>
                                 <Grid md={2} item></Grid>

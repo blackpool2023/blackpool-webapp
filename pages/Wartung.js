@@ -59,7 +59,7 @@ const Services = () => {
                             <b>BlackPool</b> hilft dir, deinen Pool zu warten. Mit unserem professionellen Pool-Service entscheidest du dich für <b>die bequeme Art deinen Pool in Schuss zu halten.</b> Du musst ihn weniger selbst pflegen und kannst dich somit in jeder Hinsicht auf den Wasserspaß freuen, den ein eigener Pool mit sich bringt.
                         </Typography>
                         <Typography variant='p' className='site-text pt-10'>
-                            Übergebe jetzt die Poolwartung in <b>fachkundige Hände,</b> damit du lange Freude an deinem Pool hast und Ausfälle vermeidest. Hier fragst du nach einem Termin: <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} >Anfrage senden.</Link>
+                            Übergebe jetzt die Poolwartung in <b>fachkundige Hände,</b> damit du lange Freude an deinem Pool hast und Ausfälle vermeidest. Hier fragst du nach einem Termin: <Link href='/kontakt' className='color-white' style={{ textDecoration: 'underline' }} >Anfrage senden.</Link>
                         </Typography>
 
                         <Box className="site-benefit">

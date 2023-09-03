@@ -58,7 +58,7 @@ const Pools = () => {
                             Umwerfend, oder? Gewinne mit uns ein Stück <b>Lebensqualität.</b> Blackpool baut deinen Betonpool in Niedersachsen, so wie du ihn willst.
                         </Typography>
                         <Typography variant='p' className='site-text pt-10'>
-                            <Link href='/contact' className='color-white' style={{ textDecoration: 'underline' }} >Jetzt Termin vereinbaren </Link>
+                            <Link href='/kontakt' className='color-white' style={{ textDecoration: 'underline' }} >Jetzt Termin vereinbaren </Link>
                         </Typography>
 
                         <Typography variant='h2' className='site-sub-heading pt-20'>

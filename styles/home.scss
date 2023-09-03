@@ -15,8 +15,8 @@
     }
 }
 .site-text {
-    font-size: 16px !important;
-    color: #727272;
+    font-size: 17px !important;
+    color: #d9d9d9;
     line-height: 28px !important;
     font-weight: 400 !important;
     text-align: center;
@@ -216,7 +216,8 @@ video {
     width: 100%;
     z-index: 11;
     
-    h1 {
+    // h1 {
+    .slider-title {
         font-size: 65px;
         max-width: 1140px;
         margin: 0 auto;

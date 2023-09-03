@@ -2,7 +2,7 @@ import { Box, Grid, List, ListItem } from '@mui/material';
 import { Link } from '@mui/material';
 import Image from 'next/image';
 import { images } from '/views/helpers/constants/ImageConstant';
-import FontAwesomeIcon from '@mui/icons-material/FacebookSharp';
+// import FontAwesomeIcon from '@mui/icons-material/FacebookSharp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
 
@@ -15,8 +15,8 @@ const NavBar = () => {
         // { id: 4, name: "Technology" },
         // { id: 5, name: "Network" },
         { id: 6, name: "About", href: 'aboutus' },
-        { id: 7, name: "Kontakt", href: 'contact' },
-        { id: 8, name: "Datenschutz", href: 'Datenschutzerklarung' },
+        { id: 7, name: "Kontakt", href: 'kontakt' },
+        { id: 8, name: "Datenschutz", href: 'Datenschutzerklaerung' },
         { id: 9, name: "Impressum", href: 'Impressum' },
     ]
     return (
@@ -47,9 +47,9 @@ const NavBar = () => {
                         </Grid>
                         <Grid lg={7} md={7} sm={12} xs={12} item className='none-1140'>
                             <Box className="social-link">
-                                <Link href="#" className="hexagon">
+                                {/* <Link href="#" className="hexagon">
                                     <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
-                                </Link>
+                                </Link> */}
                                 <Link href="https://www.instagram.com/blackpool_hannover/" target="_blank" className="hexagon">
                                     <InstagramIcon />
                                 </Link>
