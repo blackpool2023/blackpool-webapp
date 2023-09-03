@@ -52,7 +52,7 @@ const CarouselSlider = () => {
             <div key={1}>
                 {/* <Link href="#"> */}
                 <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>POOLBAU IN HANNOVER</span></Typography>
+                    <Typography className='slider-title' variant='h1'><span className='fw-800'>POOLBAU IN HANNOVER</span></Typography>
                     {/* <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography> */}
                 </Box>
                 <video className="slider-video" ref={videoRef} autoPlay muted loop style={{
@@ -64,7 +64,7 @@ const CarouselSlider = () => {
                 {/* <video
                     className="slider-video"
                     src='/assets/images/banner/slidervdo2.mp4'
-                    loop
+                    loop 
                     autoPlay
                     muted
                     loading="lazy"
@@ -77,7 +77,7 @@ const CarouselSlider = () => {
             </div>
             <div key={2}>
                 <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
+                    <Typography className='slider-title' variant='h2'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
                     {/* <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography> */}
                 </Box>
                 {/* <video
