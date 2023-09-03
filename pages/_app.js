@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }) {
       <CookieConsent
         buttonStyle={{ background: "#615CFD", fontSize: "15px", color: 'white' }}
         buttonText={checked ? 'Save + Exit' : 'AKZEPTIEREN'}
-        declineButtonText="NECNOTWENDIGE"
+        declineButtonText="NUR NOTWENDIGE"
         enableDeclineButton
       >
         <div>
