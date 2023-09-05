@@ -69,7 +69,7 @@ const ContactUs = () => {
                         </ListItem>
                     </List>
                     <Typography variant='p' className='site-text text-left'>
-                        Verbringe wie viele unserer Kunden <b>eine glückliche Zeit</b> am und im Wasser. Spreche jetzt mit uns:
+                        Verbringe wie viele unserer Kunden <b>eine glückliche Zeit</b> am und im Wasser.Spreche jetzt mit uns. Hol dir jetzt ein gratis Angebot zum Poolbau:
                     </Typography>
                 </Box>
 
