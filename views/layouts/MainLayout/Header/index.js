@@ -79,7 +79,7 @@ const Header = () => {
                                     </ListItem>
                                 ))} */}
                                 <ListItem key={1}>
-                                    <Link href='/'> Homee </Link>
+                                    <Link href='/'> Home </Link>
                                 </ListItem>
                                 <ListItem
                                     id="basic-button"
