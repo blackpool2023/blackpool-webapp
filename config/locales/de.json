@@ -1,5 +1,11 @@
 {
     "header": {
-        
+        "home": "Home",
+        "pools": "Pools",
+        "wellness": "Wellness",
+        "technology": "Technology",
+        "network": "Network",
+        "about": "About",
+        "contact": "Contact"
     }
 }
