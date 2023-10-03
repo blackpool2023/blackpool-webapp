@@ -52,7 +52,7 @@ const CarouselSlider = () => {
             <div key={1}>
                 {/* <Link href="#"> */}
                 <Box className="slide-heading">
-                    <Typography className='slider-title' variant='h2'><span className='fw-800'>POOLBAU IN HANNOVER</span></Typography>
+                    <Typography className='slider-title' variant='h1'><span className='fw-800'>POOLBAU IN HANNOVER</span></Typography>
                     {/* <Typography variant='h2'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography> */}
                 </Box>
                 <video className="slider-video" ref={videoRef} autoPlay muted loop style={{
