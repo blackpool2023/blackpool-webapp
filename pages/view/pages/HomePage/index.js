@@ -90,7 +90,7 @@ const HomePage = () => {
             <CarouselSlider />
             <Box className="homepage-main">
                 {/* <Box className="slide-heading">
-                    <Typography variant='h1'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography>
+                    <Typography variant='h2'><span className='fw-800'>WHERE</span> <span>WATER MEETS EMOTIONS</span></Typography>
                 </Box> */}
                 <Box className={`social-link ${showButton ? 'sticky-link' : ''}`}>
                     {/* <Link href="#" className="hexagon">
