@@ -78,7 +78,7 @@ const CarouselSlider = () => {
             <div key={2}>
                 <Box className="slide-heading">
                     <Typography className='slider-title' variant='h2'><span className='fw-800'>WATER MEETS EMOTIONS</span></Typography>
-                    {/* <Typography variant='h2'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography> */}
+                    {/* <Typography variant='h1'><span className='fw-800'>WOMAN IN THE POOL</span> <span> LISTEN TO YOUR BODY</span></Typography> */}
                 </Box>
                 {/* <video
                     className="slider-video"
