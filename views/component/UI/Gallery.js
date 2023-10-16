@@ -78,7 +78,8 @@
 import Head from 'next/head';
 import lgZoom from 'lightgallery/plugins/zoom';
 import dynamic from 'next/dynamic';
-import { Box } from '@mui/material';
+// import { Box } from '@mui/material';
+import Helmet from "views/component/UI/Helmet";
 
 // import styles from '../styles/Home.module.css';
 
@@ -92,9 +93,7 @@ import 'lightgallery/css/lg-zoom.css';
 export default function Gallery() {
     return (
         <div>
-            <Head>
-                <title>Create Next App</title>
-            </Head>
+            <Helmet title='Gallery - Blackpool' />
 
             <LightGallery mode="lg-fade" plugins={[lgZoom]}>
                 {/* <Grid container spacing={2}> */}
@@ -104,7 +103,7 @@ export default function Gallery() {
                     data-lg-size="1406-1390"
                     className="gallery-item"
                     data-src="/pool/indoor-inspiration1.jpg"
-                    data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
+                // data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
                 >
                     <img
                         className="img-responsive"
@@ -117,7 +116,7 @@ export default function Gallery() {
                     data-lg-size="1406-1390"
                     className="gallery-item"
                     data-src="/pool/outdoor-inspiration1.png"
-                    data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
+                // data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
                 >
                     <img
                         className="img-responsive"
@@ -130,7 +129,7 @@ export default function Gallery() {
                     data-lg-size="1406-1390"
                     className="gallery-item"
                     data-src="/pool/outdoor-inspiration2.jpg"
-                    data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
+                // data-sub-html="<h4>Photo by Fushimi Ward, Kyoto, Japan</h4>"
                 >
                     <img
                         className="img-responsive"

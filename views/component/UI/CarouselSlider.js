@@ -59,7 +59,7 @@ const CarouselSlider = () => {
                     minHeight: '600px',
                     width: '100vw',
                 }} >
-                    <source src='/assets/images/banner/slidervdo2.mp4' />
+                    <source src='/assets/images/banner/slidervdo2.mp4' type="video/mp4" />
                 </video>
                 {/* <video
                     className="slider-video"
@@ -96,7 +96,7 @@ const CarouselSlider = () => {
                     minHeight: '600px',
                     width: '100vw',
                 }} >
-                    <source src='/assets/images/banner/slidervdo3.mp4' />
+                    <source src='/assets/images/banner/slidervdo3.mp4' type="video/mp4" />
                 </video>
             </div>
             {/* <div key={2}> */}
